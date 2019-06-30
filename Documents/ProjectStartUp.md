@@ -5,6 +5,7 @@
 # “东方赛钱箱（暂定）”项目启动立项报告
 Touhou the Big Coffer Project Start-up Report
 --------------------------------------------
+作者：Project Minazuki项目组
 
 |拟制|日期|评审人|日期|
 |:-:|:--:|:----:|:-:|
