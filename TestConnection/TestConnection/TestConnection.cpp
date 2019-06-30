@@ -8,6 +8,7 @@ int main()
     std::cout << "Hello World!\n"; 
 	std::cout << "Vivid_rabbit has logged in successfully.";
 	std::cout << "rua";
+	std::cout << "Changed Name and tried revert.";
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
