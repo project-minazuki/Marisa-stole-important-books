@@ -1,9 +1,9 @@
 # 2019暑期工程实训  
 **Project Name**：东方赛钱箱（暂定）  
 **Project Adress**：lilyknight / touhou_the_big_coffer  
-**Date & Time**：2019/06/29 ~ 2019/07/10
-**Staff**：刘书哲、唐铭聪、蔡嘉琦、庆俊杰
-**Group Name**：Project Minazuki（水無月プロジェクト）
+**Date & Time**：2019/06/29 ~ 2019/07/10  
+**Staff**：刘书哲、唐铭聪、蔡嘉琦、庆俊杰  
+**Group Name**：Project Minazuki（水無月プロジェクト）  
 
 ## 0. 关于工程文件
 
