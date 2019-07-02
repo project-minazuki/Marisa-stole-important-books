@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1911003686276463352}
   - component: {fileID: 5216285340313900438}
   - component: {fileID: 5130295822828201329}
+  - component: {fileID: 9213005778375042754}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -133,6 +134,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isPlayerJumped: 0
+  isPlayerBlocked: 0
+  isPlayerClimbing: 0
   isPlayerDashed: 0
   isPlayerJumpedTwise: 0
 --- !u!114 &5130295822828201329
@@ -147,3 +150,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b4a3c9b2466a164f983258fd5ea19d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9213005778375042754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275946563811555364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1008b98f0bc409d46b6d4072cd6ca7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeSpeed: 0

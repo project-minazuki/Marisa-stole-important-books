@@ -6,10 +6,13 @@ public class PlayerJumping : MonoBehaviour
 {
 
     PlayerMoving playerMoving;
+    TheWorld theWorld;
+
     // Start is called before the first frame update
     void Start()
     {
         playerMoving = GetComponent<PlayerMoving>();
+        theWorld = GetComponent<TheWorld>();
     }
 
     // Update is called once per frame
@@ -19,23 +22,23 @@ public class PlayerJumping : MonoBehaviour
 
         if (Input.GetButton("Fire1") )
         {
-            if (playerMoving.isPlayerJumped == false && GetComponent<Rigidbody2D>().velocity.y >= -0.5)
+            if (playerMoving.isPlayerJumped == false && GetComponent<Rigidbody2D>().velocity.y >= -0.5 * theWorld.timeSpeed)
             {
-                GetComponent<Rigidbody2D>().velocity = new Vector2(0,8);
+                GetComponent<Rigidbody2D>().velocity = new Vector2(0,8 * theWorld.timeSpeed);
                 playerMoving.isPlayerJumped = true;
             }
         }
 
 //#endif
 
-        if (playerMoving.isPlayerClimbing == false && playerMoving.isPlayerBlocked == true && (playerMoving.isPlayerJumped == true || GetComponent<Rigidbody2D>().velocity.y < -0.5))
+        if (playerMoving.isPlayerClimbing == false && playerMoving.isPlayerBlocked == true && (playerMoving.isPlayerJumped == true || GetComponent<Rigidbody2D>().velocity.y < -0.5 * theWorld.timeSpeed))
         {
             if (Input.GetButton("Fire1") && playerMoving.isPlayerClimbing == false)
             {
                 playerMoving.isPlayerClimbing = true;
                 playerMoving.isPlayerJumped = true;
-                GetComponent<Rigidbody2D>().velocity = new Vector2(0, 8f);
-                Invoke("endClimb", 0.25f);
+                GetComponent<Rigidbody2D>().velocity = new Vector2(0, 8f * theWorld.timeSpeed);
+                Invoke("endClimb", 0.25f/theWorld.timeSpeed);
             }
         }
     }

@@ -6,6 +6,8 @@ public class MapCreator : MonoBehaviour
 {
     public GameObject wall;
 
+    TheWorld theWorld;
+
     private int newWallx = 15;
     // Start is called before the first frame update
     void Start()

@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Managers\MapCreator.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerJumping.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoving.cs" />
+    <Compile Include="Assets\Scripts\Player\TheWorld.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

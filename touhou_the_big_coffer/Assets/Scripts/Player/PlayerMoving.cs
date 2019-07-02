@@ -9,10 +9,13 @@ public class PlayerMoving : MonoBehaviour
     public bool isPlayerClimbing = false;
     public bool isPlayerDashed = false;
     public bool isPlayerJumpedTwise = false;
+
+    TheWorld theWorld;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        theWorld = GetComponent<TheWorld>();
     }
 
     // Update is called once per frame
@@ -20,8 +23,7 @@ public class PlayerMoving : MonoBehaviour
     {
         if (isPlayerBlocked == false)
         {
-            gameObject.
-            transform.position = Vector3.MoveTowards(transform.position, transform.position += new Vector3(5, 0, 0), 2 * Time.deltaTime);
+            gameObject.transform.position = Vector3.MoveTowards(transform.position, transform.position += new Vector3(5, 0, 0),  theWorld.timeSpeed * 2 * Time.deltaTime);
         }
     }
 }
