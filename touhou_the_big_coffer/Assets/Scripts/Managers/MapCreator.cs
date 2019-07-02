@@ -6,11 +6,11 @@ public class MapCreator : MonoBehaviour
 {
     public GameObject wall;
 
-    private int newWallx = 9;
+    private int newWallx = 15;
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = -9; i <= 9; i += 1)
+        for (int i = -6; i <= 15; i += 1)
         {
             Instantiate(wall, new Vector3(i, -4, 0), gameObject.transform.rotation);
         }
