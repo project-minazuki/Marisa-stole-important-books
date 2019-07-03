@@ -1,0 +1,488 @@
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\mscorlib.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\netstandard.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\nunit.framework.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.AppContext.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Collections.Concurrent.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Collections.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Collections.NonGeneric.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Collections.Specialized.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.Composition.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Console.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Core.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Data.Common.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Data.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Debug.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Process.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Tools.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Drawing.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Drawing.Primitives.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Dynamic.Runtime.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Globalization.Calendars.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Globalization.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Globalization.Extensions.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.Compression.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.FileSystem.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.Pipes.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Linq.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Linq.Expressions.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Linq.Parallel.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Linq.Queryable.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Http.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.NameResolution.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.NetworkInformation.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Ping.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Primitives.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Requests.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Security.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Sockets.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.WebSockets.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Numerics.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Numerics.Vectors.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ObjectModel.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Reflection.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Reflection.Extensions.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Reflection.Primitives.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Resources.Reader.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Resources.ResourceManager.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Resources.Writer.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Extensions.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Handles.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.InteropServices.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Numerics.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Claims.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Principal.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.SecureString.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ServiceModel.Web.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Text.Encoding.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Text.RegularExpressions.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Overlapped.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Tasks.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Thread.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.ThreadPool.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Timer.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Transactions.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ValueTuple.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Web.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Windows.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.Linq.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.Serialization.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XDocument.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XmlDocument.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XPath.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.Editor.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Locator.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEditor.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AIModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ARModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AudioModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ClothModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.CoreModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.GridModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.InputModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TLSModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UI.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UIModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UNETModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VFXModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VideoModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VRModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.WindModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.XRModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Cecil.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.DataContract.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\ExCSS.Unity.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.IvyParser.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.CecilTools.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEditor.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AudioModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.CoreModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.GridModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.InputModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UNETModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VideoModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.XRModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\nunit.framework.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.pdb
+D:\Source\Repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Source\Repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\Source\Repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.dll
+D:\Source\Repos\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.pdb
+D:\Source\Repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Assembly-CSharp.dll
+D:\Source\Repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Assembly-CSharp.pdb
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Assembly-CSharp.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Assembly-CSharp.pdb
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\mscorlib.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\netstandard.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\nunit.framework.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.AppContext.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Collections.Concurrent.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Collections.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Collections.NonGeneric.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Collections.Specialized.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.Composition.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Console.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Core.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Data.Common.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Data.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Debug.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Process.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Tools.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Diagnostics.Tracing.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Drawing.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Drawing.Primitives.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Dynamic.Runtime.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Globalization.Calendars.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Globalization.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Globalization.Extensions.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.Compression.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.Compression.FileSystem.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.FileSystem.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.Pipes.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Linq.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Linq.Expressions.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Linq.Parallel.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Linq.Queryable.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Http.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.NameResolution.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.NetworkInformation.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Ping.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Primitives.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Requests.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Security.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.Sockets.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Net.WebSockets.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Numerics.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Numerics.Vectors.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ObjectModel.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Reflection.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Reflection.Extensions.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Reflection.Primitives.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Resources.Reader.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Resources.ResourceManager.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Resources.Writer.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Extensions.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Handles.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.InteropServices.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Numerics.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Claims.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.Principal.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Security.SecureString.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ServiceModel.Web.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Text.Encoding.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Text.RegularExpressions.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Overlapped.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Tasks.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Thread.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.ThreadPool.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Threading.Timer.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Transactions.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.ValueTuple.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Web.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Windows.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.Linq.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.Serialization.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XDocument.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XmlDocument.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XPath.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.Editor.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.Tracker.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Locator.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEditor.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AIModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ARModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AudioModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ClothModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.CoreModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.GridModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.InputModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.Networking.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TestRunner.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.Timeline.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TLSModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UI.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UIModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UNETModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VFXModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VideoModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VRModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.WindModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.XRModule.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Cecil.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.SerializationLogic.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.DataContract.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\ExCSS.Unity.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.UNetWeaver.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.IvyParser.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.CecilTools.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEditor.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.pdb
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AudioModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.CoreModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.GridModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.InputModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UNETModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.VideoModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.XRModule.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\nunit.framework.xml
+I:\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+I:\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+I:\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+I:\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.dll
+I:\touhou_the_big_coffer\touhou_the_big_coffer\obj\Debug\Assembly-CSharp.pdb
+I:\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
