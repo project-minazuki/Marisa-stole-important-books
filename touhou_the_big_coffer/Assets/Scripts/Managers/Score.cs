@@ -5,47 +5,52 @@ using UnityEngine.UI;
 
 public class Score : MonoBehaviour
 {
-    public int BasicScore;
-    public int ExtraScore;
+    public int basicScore;
+    public int extraScore;
     public int score;
     public Text scoreText;
     public int test;
     public GameObject player;
     public float positionX;
+
     void Start()
     {
         score = 0;
-        BasicScore = 0;
-        ExtraScore = 0;
+        basicScore = 0;
+        extraScore = 0;
         test = 0;
-        UpdateScore();
+        updateScore();
     }
 
     // Update is called once per frame
     void Update()
     {
-        test = 78685;
         if (player != null)
         {
-            BasicScore = (int)player.transform.position.x;
-            test = 999;
+            basicScore = (int)player.transform.position.x;
         }
         else
         {
             scoreText.text = "滑稽";
-            test = 123;
         }
-        score = BasicScore + ExtraScore;
-        UpdateScore();
+        score = basicScore + extraScore;
+        updateScore();
     }
-    public void AddScore(int newScoreValue)
+
+    public void addScore(int newScoreValue)
     {
-        ExtraScore += newScoreValue;
-        UpdateScore();
+        extraScore += newScoreValue;
+        updateScore();
     }
-    void UpdateScore()
+
+    public void setExtraScore(int newScoreValue)
     {
-        scoreText.text= "得分：" + score;
-       
+        extraScore = newScoreValue;
+        updateScore();
+    }
+
+    void updateScore()
+    {
+        scoreText.text= "得分：" + score;       
     }
 }

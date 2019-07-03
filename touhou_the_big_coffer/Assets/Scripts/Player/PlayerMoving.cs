@@ -8,6 +8,7 @@ public class PlayerMoving : MonoBehaviour
     public bool isPlayerBlocked = false;
     public bool isPlayerClimbing = false;
     public bool isPlayerDashed = false;
+    public bool isPlayerDashing = false;
     public bool isPlayerJumpedTwice = false;
 
     PlayerControl playerControl;
@@ -21,7 +22,7 @@ public class PlayerMoving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isPlayerBlocked == false)
+        if (isPlayerBlocked == false && !isPlayerDashing)
         {
             gameObject.transform.position = Vector3.MoveTowards(transform.position, transform.position += new Vector3(5, 0, 0),  playerControl.timeSpeed * 3 * Time.deltaTime);
         }

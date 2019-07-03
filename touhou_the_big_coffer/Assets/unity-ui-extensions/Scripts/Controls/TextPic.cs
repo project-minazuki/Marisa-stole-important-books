@@ -138,7 +138,11 @@ namespace UnityEngine.UI.Extensions
         protected void UpdateQuadImage()
         {
 #if UNITY_EDITOR
+#pragma warning disable CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
             if (UnityEditor.PrefabUtility.GetPrefabType(this) == UnityEditor.PrefabType.Prefab)
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning restore CS0618 // Type or member is obsolete
             {
                 return;
             }
