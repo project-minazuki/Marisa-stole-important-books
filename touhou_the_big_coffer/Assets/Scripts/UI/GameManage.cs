@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+
+
 public class GameManage : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -20,7 +22,13 @@ public class GameManage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (paused != true)
+            {
+                Pause();
+            }
+        }
     }
     public void OnStartGame()
     {

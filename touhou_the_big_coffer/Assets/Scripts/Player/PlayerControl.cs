@@ -282,11 +282,11 @@ public class PlayerControl : MonoBehaviour
 
 #if UNITY_IOS || UNITY_ANDROID
 
-        GetComponent<Rigidbody2D>().velocity = new Vector2(touchPosition.x - startPosition.x, touchPosition.y - startPosition.y).normalized * 20;
+        GetComponent<Rigidbody2D>().velocity = new Vector2(touchPosition.x - startPosition.x, touchPosition.y - startPosition.y).normalized * 12;
 
 #endif
 
-        Invoke("endDash", 0.1f);
+        Invoke("endDash", 1/6f);
 
     }
 

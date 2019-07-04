@@ -220,10 +220,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 282618593}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96134cf7341c7b146ae9a2b583255a02, type: 3}
+  m_Script: {fileID: 11500000, guid: 37e179cc8df2c25428f073003fed2f58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 0}
+  screenHeight: 0
+  screenWidth: 0
 --- !u!4 &282618595
 Transform:
   m_ObjectHideFlags: 0

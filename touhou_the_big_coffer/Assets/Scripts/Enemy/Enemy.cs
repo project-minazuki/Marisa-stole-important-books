@@ -42,6 +42,7 @@ public class Enemy : MonoBehaviour
         }
         if (transform.position.x > player.transform.position.x) gameObject.transform.position = new Vector3(transform.position.x + timeSpeed * 3f * Time.deltaTime, 0, 0);
         else transform.position = new Vector3(player.transform.position.x, transform.position.y, 0);
+        if (transform.position.x + 16 < player.transform.position.x) Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
