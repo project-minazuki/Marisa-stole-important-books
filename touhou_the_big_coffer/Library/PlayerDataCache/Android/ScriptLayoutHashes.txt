@@ -1,7 +1,9 @@
 Android
 PlayerPath?
-D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/test0.0.8.apk
+D:/source/rua2/rua/touhou_the_big_coffer/test0.0.9.1.apk
 SceneListBegin?
+Assets/Scenes/Start.unity
+Assets/Scenes/Setting.unity
 Assets/Scenes/Scene.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.ScrollSnapScrollbarHelper
@@ -198,6 +200,7 @@ d5529f863dd80db54f00a89621073fd4 Assembly-CSharp.dll:UnityEngine.UI.Extensions.E
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 f784c98daf53c545e6e067d3ba4cbe9f Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.Example01ScrollViewCell
 0db47584045bd90e80539b1bebec2b16 Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.PauseMenu
+bb2c65d4dfe914ab9963197ae12b47a0 Assembly-CSharp.dll:.GameManage
 88a886bc03d974fd5a17daa19cf4fb58 Assembly-CSharp.dll:UnityEngine.UI.Extensions.HoverTooltip
 6b14cffb2d808923e1de8d4079108568 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIScrollToSelectionXY
 40e6a4921a2e6269c84c2e4aba2d21dc Assembly-CSharp.dll:UnityEngine.EventSystems.GamePadInputModule
@@ -250,8 +253,7 @@ e1300922cc039f41ab46a47f4cb05898 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.Examples.TMP_TextSelector_A
 876e5c1183c918ff01905454695856a0 Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.LineRendererOrbit
 01d566f57af4edca516ee5e957c6e2fa Assembly-CSharp.dll:UnityEngine.UI.Extensions.ScrollRectTweener
-88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.BeforeAfterTestCommandState
-88cc9df3c6fc697bfbeacd24c0d6f2d7 UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
+cf96e5f7b3d069bab453925bd41be04e UnityEngine.TestRunner.dll:UnityEngine.TestTools.EnumerableSetUpTearDownCommandState
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 259d013faac28e8ba0aa2a7542273735 UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
