@@ -1282,7 +1282,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.049988, y: 479.95}
+  m_AnchoredPosition: {x: 0.050048828, y: 479.95}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273448884
@@ -1546,10 +1546,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1878316865}
-  - component: {fileID: 1878316866}
   - component: {fileID: 1878316864}
   - component: {fileID: 1878316867}
   - component: {fileID: 1878316868}
+  - component: {fileID: 1878316866}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -1592,11 +1592,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1878316863}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d35be5a3a34e5184abf63161cd0808a0, type: 3}
+  m_Script: {fileID: 11500000, guid: b758b364ed55778409b53621906b4763, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   wall: {fileID: 5046726567287589167, guid: e3cca9b81ef3d72478967889efca890a, type: 3}
   stab: {fileID: 2242437555989748682, guid: 796ec7d78872b9e41b02ec5039a8173d, type: 3}
+  enemy: {fileID: 4953899747195898666, guid: 9b1033d438afd96428bb56d8928614b2, type: 3}
 --- !u!114 &1878316867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6244,7 +6245,7 @@ ParticleSystem:
 --- !u!199 &2063128361
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
