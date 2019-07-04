@@ -16,6 +16,7 @@ public class PlayerControl : MonoBehaviour
     ParticleSystem rayParticles;
     LineRenderer line;
     int dashableMask = 0;
+    CameraFollow cameraFollow;
 
     private float gravity;
     private bool theWorldStart = false;
@@ -54,6 +55,16 @@ public class PlayerControl : MonoBehaviour
         if (score == null)
         {
             Debug.Log("Cannot find 'GameController' script");
+        }
+
+        GameObject cameraFollowObject = GameObject.FindGameObjectWithTag("MainCamera");
+        if (cameraFollowObject != null)
+        {
+            cameraFollow = cameraFollowObject.GetComponent<CameraFollow>();
+        }
+        if (cameraFollowObject == null)
+        {
+            Debug.Log("Cannot find 'cameraFollow' script");
         }
 
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -106,7 +117,7 @@ public class PlayerControl : MonoBehaviour
                     }
                     if (touchPosition.x > screenWidth * 2 / 3)//screenWidth在Start中已经赋值=>screenWidth = Screen.width;
                     {
-                        if (touch.phase == TouchPhase.Stationary)
+                        if (touch.phase == TouchPhase.Stationary || Vector2.Distance(startPosition, touchPosition) < screenWidth / 20)
                         {
                             keyHoldTime++;
                         }
@@ -114,9 +125,9 @@ public class PlayerControl : MonoBehaviour
                         {
                             startPosition = touchPosition;
                         }
-                        if ((touch.phase == TouchPhase.Stationary || theWorldStart) && (keyHoldTime >= 10 || Vector2.Distance(startPosition, touchPosition) < screenWidth / 10 && keyHoldTime >= 5))
+                        if ((touch.phase == TouchPhase.Stationary || theWorldStart) && keyHoldTime >= 10)
                         {
-
+                            cameraFollow.zoomIn();
                             flag1 = true;
                             if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 10 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
                             {
@@ -137,7 +148,7 @@ public class PlayerControl : MonoBehaviour
                         }
                         if (touch.phase == TouchPhase.Ended)
                         {
-                            keyHoldTime = 0;
+                            keyHoldTime = 0;                         
                             if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 10 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
                             {
                                 dash();
@@ -173,7 +184,8 @@ public class PlayerControl : MonoBehaviour
                 //{
                 //    Line();    //显示指示线
                 //}
-                    flag1 = true;
+                cameraFollow.zoomIn();
+                flag1 = true;
                 if (!theWorldStart)
                 {
                     rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y * 0.05f);
@@ -210,6 +222,7 @@ public class PlayerControl : MonoBehaviour
 
         if (flag1 == false)
         {
+            cameraFollow.zoomOut();
             if (!theWorldEnd)
             {
                 if(!playerMoving.isPlayerDashing) rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y * 20f);
