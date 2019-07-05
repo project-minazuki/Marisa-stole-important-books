@@ -129,7 +129,7 @@ public class PlayerControl : MonoBehaviour
                         {
                             cameraFollow.zoomIn();
                             flag1 = true;
-                            if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 10 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
+                            if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 20 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
                             {
                                 Line();
                             }
@@ -149,7 +149,7 @@ public class PlayerControl : MonoBehaviour
                         if (touch.phase == TouchPhase.Ended)
                         {
                             keyHoldTime = 0;                         
-                            if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 10 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
+                            if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 20 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
                             {
                                 dash();
                             }

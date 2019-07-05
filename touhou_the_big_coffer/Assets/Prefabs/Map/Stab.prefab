@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8114638563785931572}
   - component: {fileID: 8017297601388363820}
   - component: {fileID: 1272815034207799594}
+  - component: {fileID: 9123535844525780919}
   m_Layer: 0
   m_Name: Stab
   m_TagString: Death
@@ -168,3 +169,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9, y: 0.35}
   m_EdgeRadius: 0
+--- !u!114 &9123535844525780919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2242437555989748682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79f8b0b422f6e1b4eb91042bd9c8bdbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

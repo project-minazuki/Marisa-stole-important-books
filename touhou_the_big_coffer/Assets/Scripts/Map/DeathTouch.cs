@@ -6,6 +6,9 @@ public class DeathTouch : MonoBehaviour
 {
 
     GameOver gameOver;
+    //修改*********
+    StatefulInspection statefulInspection;
+    //修改*********
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +22,17 @@ public class DeathTouch : MonoBehaviour
                 break;
             }
         }
+        //修改************
+        GameObject gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
+        if (gameControllerObject != null)
+        {
+            statefulInspection = gameControllerObject.GetComponent<StatefulInspection>();
+        }
+        if (statefulInspection == null)
+        {
+            Debug.Log("Cannot find 'GameController' script");
+        }
+        //修改*************
     }
 
     // Update is called once per frame
@@ -31,6 +45,7 @@ public class DeathTouch : MonoBehaviour
     {
         if (collision.gameObject.name == "Player" && (collision.GetComponent<PlayerMoving>().isPlayerDashing == false || gameObject.tag == "Death"))
         {
+            if(statefulInspection.isStarPlatinum == false)
             Death();
         }
     }
