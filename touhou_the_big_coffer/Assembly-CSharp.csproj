@@ -60,13 +60,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Animations\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Camera\InvisibleWallMove.cs" />
     <Compile Include="Assets\Scripts\Enemy\Bolt.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Items\panding.cs" />
+    <Compile Include="Assets\Scripts\Items\StarPlatinum.cs" />
+    <Compile Include="Assets\Scripts\Managers\DestroyByInvisibleWall.cs" />
     <Compile Include="Assets\Scripts\Managers\DestroyByTime.cs" />
     <Compile Include="Assets\Scripts\Managers\GameOver.cs" />
     <Compile Include="Assets\Scripts\Managers\MapCreator.cs" />
     <Compile Include="Assets\Scripts\Managers\Score.cs" />
+    <Compile Include="Assets\Scripts\Managers\StatefulInspection.cs" />
     <Compile Include="Assets\Scripts\Map\DeathTouch.cs" />
     <Compile Include="Assets\Scripts\Map\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
