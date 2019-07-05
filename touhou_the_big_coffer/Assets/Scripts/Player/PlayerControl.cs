@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour
     public float dashSpeed;
     public float leftClimbingTime = 15;
     public float range = 10f;
+    public float test = 0f;
 
     PlayerMoving playerMoving;
     new Rigidbody2D rigidbody2D;
@@ -82,7 +83,7 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        test = getVelocityX(); 
 #if UNITY_IOS || UNITY_ANDROID || UNITY_EDITOR //if current platform is mobile, 
 
         bool flag1 = false;
@@ -141,6 +142,7 @@ public class PlayerControl : MonoBehaviour
                             {
                                 rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y * 0.05f);
                                 theWorldStart = true;
+                                GetComponent<Afterimage>().enableAfterimage = true;
                             }
                             theWorldEnd = false;
                             timeSpeed = 0.05f;
@@ -152,6 +154,7 @@ public class PlayerControl : MonoBehaviour
                             if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 20 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
                             {
                                 dash();
+                                GetComponent<Afterimage>().enableAfterimage = true;
                             }
                             startPosition = Vector2.zero;
                         }
@@ -227,7 +230,9 @@ public class PlayerControl : MonoBehaviour
             {
                 if(!playerMoving.isPlayerDashing) rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y * 20f);
                 theWorldEnd = true;
+                
             }
+            if(!playerMoving.isPlayerDashing) GetComponent<Afterimage>().enableAfterimage = false;
             theWorldStart = false;
             timeSpeed = 1.0f;
             GetComponent<Rigidbody2D>().gravityScale = gravity;
@@ -236,6 +241,7 @@ public class PlayerControl : MonoBehaviour
         {
             if ((leftClimbingTime -= (timeSpeed)) <= 0 || playerMoving.isPlayerDashing) endClimb();
         }
+
 #endif
 
     }
@@ -334,5 +340,13 @@ public class PlayerControl : MonoBehaviour
             // ... set the second position of the line renderer to the fullest extent of the gun's range.
             line.SetPosition(1, dashRay.origin + dashRay.direction * range);
         }
+    }
+
+    public float getVelocityX()
+    {
+        float tmp = 0f;
+        if (!playerMoving.isPlayerBlocked) tmp = timeSpeed * 3 * Time.deltaTime;
+
+        return (tmp + rigidbody2D.velocity.x/60) ;
     }
 }
