@@ -142,7 +142,6 @@ public class PlayerControl : MonoBehaviour
                             {
                                 rigidbody2D.velocity = new Vector2(0, rigidbody2D.velocity.y * 0.05f);
                                 theWorldStart = true;
-                                GetComponent<Afterimage>().enableAfterimage = true;
                             }
                             theWorldEnd = false;
                             timeSpeed = 0.05f;
@@ -154,7 +153,6 @@ public class PlayerControl : MonoBehaviour
                             if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 20 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
                             {
                                 dash();
-                                GetComponent<Afterimage>().enableAfterimage = true;
                             }
                             startPosition = Vector2.zero;
                         }
@@ -232,7 +230,6 @@ public class PlayerControl : MonoBehaviour
                 theWorldEnd = true;
                 
             }
-            if(!playerMoving.isPlayerDashing) GetComponent<Afterimage>().enableAfterimage = false;
             theWorldStart = false;
             timeSpeed = 1.0f;
             GetComponent<Rigidbody2D>().gravityScale = gravity;

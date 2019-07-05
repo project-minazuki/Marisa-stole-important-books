@@ -46,6 +46,7 @@ public class Afterimage : MonoBehaviour
  
     List<SpriteRenderer> spriteList;
     PlayerControl playerControl;
+    PlayerMoving playerMoving;
 
     private CommandBuffer buffer;
  
@@ -61,7 +62,6 @@ public class Afterimage : MonoBehaviour
     public float spacing = 1;
     public float live = 0.2f;
     public Color color = Color.white;
-    public bool enableAfterimage;
 
     private void Awake()
     {
@@ -79,6 +79,7 @@ public class Afterimage : MonoBehaviour
     {
         lastPosition = transform.position;
         playerControl = GetComponent<PlayerControl>();
+        playerMoving = GetComponent<PlayerMoving>();
     }
 
 
@@ -106,7 +107,7 @@ public class Afterimage : MonoBehaviour
             Camera.main.RemoveCommandBuffer(CameraEvent.BeforeForwardAlpha, buffer);
         }
 
-        if (enableAfterimage)
+        if (playerControl.timeSpeed < 1 || playerMoving.isPlayerDashing)
         {
 
             //设置绘制数据

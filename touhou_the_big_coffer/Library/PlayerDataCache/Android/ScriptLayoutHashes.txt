@@ -38,6 +38,7 @@ e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventH
 098ae439bfb1e0b157832ee937d7c9cc Assembly-CSharp.dll:UnityEngine.UI.Extensions.AutoCompleteComboBox
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UISoftAdditiveEffect
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.TMP_PhoneNumberValidator
+381c164ba2a9383f40eb9f065398e694 Assembly-CSharp.dll:.Afterimage
 e168040637a1ce1afb49336dcccc69e4 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UICircle
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -345,4 +346,3 @@ e5ee43ede19111e51b78dbbe3af736a9 Assembly-CSharp.dll:UnityEngine.UI.Extensions.U
 b474d6331783864a4f4f41cd2727638d Assembly-CSharp.dll:UnityEngine.UI.Extensions.SoftMaskScript
 eb8130637618d68e5d210dfe3a7b030c Assembly-CSharp.dll:UnityEngine.UI.Extensions.DiamondGraph
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIMultiplyEffect
-beb06ecc81f8e9ac3553f9cf2243cdaf Assembly-CSharp.dll:.Afterimage
