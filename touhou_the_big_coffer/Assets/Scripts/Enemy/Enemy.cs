@@ -49,7 +49,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            score.addScore(200);
+            score.addScore(50);
             Destroy(gameObject);
         }
     }
