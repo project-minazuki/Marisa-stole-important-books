@@ -10,6 +10,7 @@ public class GameManage : MonoBehaviour
 {
     // Start is called before the first frame update
     public CanvasGroup canvasGroup;
+    public CanvasGroup canvasGroupOver;
     private bool paused;
     public int screenHeight;
     public int screenWidth;
@@ -33,6 +34,7 @@ public class GameManage : MonoBehaviour
     public void OnStartGame()
     {
         SceneManager.LoadScene("Scene");
+        canvasGroupOver.transform.localPosition = new Vector3(0, -screenHeight, 0);
         canvasGroup.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0)+ new Vector3(0, screenHeight, 0);
     }
     public void OnExitGame()
@@ -45,7 +47,6 @@ public class GameManage : MonoBehaviour
         {
             canvasGroup.transform.position += new Vector3(0, screenHeight , 0);
             Time.timeScale = 1;
-            paused = false;
         }
         SceneManager.LoadScene("Start");
     
@@ -89,5 +90,14 @@ public class GameManage : MonoBehaviour
     {
         screenHeight = Screen.height;
         screenWidth = Screen.width;
+    }
+    public void GameOver()
+    {
+        Time.timeScale = 0;
+        paused = true;
+        if (canvasGroupOver != null)
+        {
+            canvasGroupOver.transform.position += new Vector3(0, screenHeight/2, 0);
+        }
     }
 }

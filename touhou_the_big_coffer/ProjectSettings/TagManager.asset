@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - Death
+  - Enemy
+  - Canvas_Background
   layers:
   - Default
   - TransparentFX

@@ -335,4 +335,11 @@ public class PlayerControl : MonoBehaviour
             line.SetPosition(1, dashRay.origin + dashRay.direction * range);
         }
     }
+    public float getVelocityX()
+    {
+        float tmp = 0f;
+        if (!playerMoving.isPlayerBlocked) tmp = timeSpeed * 3 * Time.deltaTime;
+
+        return (tmp + rigidbody2D.velocity.x / 60);
+    }
 }

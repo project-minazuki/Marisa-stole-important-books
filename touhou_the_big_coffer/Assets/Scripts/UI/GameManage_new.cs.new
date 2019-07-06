@@ -1,0 +1,102 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+
+
+public class GameManage : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public CanvasGroup canvasGroup;
+    private bool paused;
+    public int screenHeight;
+    public int screenWidth;
+    public int timescale;
+    void Start()
+    {
+        paused = false ;
+        GetScreenWH();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        MadeInHaven();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause();
+        }
+    }
+    public void OnStartGame()
+    {
+        SceneManager.LoadScene("Scene");
+        canvasGroup.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0)+ new Vector3(0, screenHeight, 0);
+    }
+    public void OnExitGame()
+    {
+        Application.Quit();
+    }//Exit the game from the main menu
+    public void OnExitGame2()
+    {
+        if (canvasGroup != null)
+        {
+            canvasGroup.transform.position += new Vector3(0, screenHeight , 0);
+            Time.timeScale = 1;
+            timescale = 1;
+            paused = false;
+        }
+        SceneManager.LoadScene("Start");
+    
+    }//Exit the game when playing
+    public void OnSetting()
+    {
+        SceneManager.LoadScene("Setting");
+    }
+    public void Retry()
+    {
+        if (canvasGroup != null)
+        {
+            paused = false; ;
+            canvasGroup.transform.position += new Vector3(0, screenHeight, 0);
+            SceneManager.LoadScene("Scene");
+            Time.timeScale = 1;
+        }
+    }
+    public void Pause()
+    {
+        Time.timeScale = 0;
+        timescale = 0;
+        if (paused == false)
+        {
+            if (canvasGroup != null)
+            {
+                canvasGroup.transform.position = new Vector3(screenWidth/2, screenHeight/2, 0);
+                paused = true;
+            }
+        }
+    }
+    public void Continue()
+    {
+        if (canvasGroup != null)
+        {
+            Time.timeScale = 1;
+            canvasGroup.transform.position += new Vector3(0, screenHeight, 0);
+            paused = false;
+        }
+    }
+    public void GetScreenWH()
+    {
+        screenHeight = Screen.height;
+        screenWidth = Screen.width;
+    }
+    private void MadeInHaven()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+            Time.timeScale = 20;
+        else
+            Time.timeScale = timescale=1;
+        
+    }
+}
