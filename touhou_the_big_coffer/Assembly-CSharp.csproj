@@ -74,7 +74,7 @@
     <Compile Include="Assets\Scripts\Managers\Score.cs" />
     <Compile Include="Assets\Scripts\Managers\StatefulInspection.cs" />
     <Compile Include="Assets\Scripts\Map\DeathTouch.cs" />
-    <Compile Include="Assets\Scripts\Map\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Map\Shadow.cs" />
     <Compile Include="Assets\Scripts\Player\Afterimage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoving.cs" />

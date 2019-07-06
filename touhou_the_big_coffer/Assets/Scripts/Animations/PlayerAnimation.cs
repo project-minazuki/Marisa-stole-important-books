@@ -7,8 +7,6 @@ public class PlayerAnimation : MonoBehaviour
     PlayerControl playerControl;
     PlayerMoving playerMoving;
     Animator animator;
-    Animation animation;
-    float speedY;
     float timeRect;
 
     // Start is called before the first frame update
@@ -22,11 +20,9 @@ public class PlayerAnimation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speedY = GetComponent<Rigidbody2D>().velocity.y;
+        animator.speed = playerControl.timeSpeed;
         if (playerMoving.isPlayerDashing) animator.SetBool("Dash", true);
         else animator.SetBool("Dash", false);
-        if (playerMoving.isPlayerJumped) animator.SetBool("Jump", true);
-        else animator.SetBool("Jump", false);
         if (playerMoving.isPlayerClimbing) animator.SetBool("Climb", true);
         else animator.SetBool("Climb", false);
     }

@@ -49,6 +49,11 @@ public class Score : MonoBehaviour
         updateScore();
     }
 
+    public int getScore()
+    {
+        return score;
+    }
+
     void updateScore()
     {
         scoreText.text= "得分：" + score;       

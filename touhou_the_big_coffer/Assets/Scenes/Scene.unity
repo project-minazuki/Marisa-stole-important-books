@@ -1784,7 +1784,6 @@ GameObject:
   - component: {fileID: 1878316864}
   - component: {fileID: 1878316867}
   - component: {fileID: 1878316870}
-  - component: {fileID: 1878316866}
   - component: {fileID: 1878316868}
   - component: {fileID: 1878316869}
   - component: {fileID: 1878316871}
@@ -1821,18 +1820,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1878316866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1878316863}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b758b364ed55778409b53621906b4763, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1878316867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1895,7 +1882,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wall: {fileID: 5046726567287589167, guid: e3cca9b81ef3d72478967889efca890a, type: 3}
   stab: {fileID: 2242437555989748682, guid: 796ec7d78872b9e41b02ec5039a8173d, type: 3}
-  bonus: {fileID: 4846271559141863820, guid: 45e8f3febc97af64e934b52ce6dc1a62, type: 3}
+  shadow: {fileID: 5046726567287589167, guid: ce2c24ecc24c86949a5168529c49352b, type: 3}
+  bonus: {fileID: 4846271559141863820, guid: b67511996a313024aacb6f0319d6638a, type: 3}
   starplatinum: {fileID: 6772498332252004186, guid: 0caee38a489ff854da787e784b3e15c7,
     type: 3}
   player: {fileID: 225428028}
