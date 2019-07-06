@@ -37,10 +37,7 @@ public class AfterimageData
     public float live;
 }
  
- 
-/// <summary>
-/// 基于SpriteRenderer的幻影插件，可以用于2D幻影
-/// </summary>
+
 public class Afterimage : MonoBehaviour
 {
  

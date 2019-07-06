@@ -17,6 +17,7 @@ public class MapCreator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         for (int i = -6; i <= 20; i += 1)
         {
             Instantiate(wall, new Vector3(i, -4, 0), gameObject.transform.rotation);

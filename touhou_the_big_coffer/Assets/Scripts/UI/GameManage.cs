@@ -34,8 +34,8 @@ public class GameManage : MonoBehaviour
     public void OnStartGame()
     {
         SceneManager.LoadScene("Scene");
-        canvasGroupOver.transform.localPosition = new Vector3(0, -screenHeight, 0);
-        canvasGroup.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0)+ new Vector3(0, screenHeight, 0);
+        canvasGroupOver.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0) + new Vector3(0, screenHeight, 0);
+        canvasGroup.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0) + new Vector3(0, screenHeight, 0);
     }
     public void OnExitGame()
     {
@@ -59,7 +59,7 @@ public class GameManage : MonoBehaviour
     {
         if (canvasGroup != null)
         {
-            paused = false; ;
+            paused = false;
             canvasGroup.transform.position += new Vector3(0, screenHeight, 0);
             SceneManager.LoadScene("Scene");
             Time.timeScale = 1;
@@ -97,7 +97,7 @@ public class GameManage : MonoBehaviour
         paused = true;
         if (canvasGroupOver != null)
         {
-            canvasGroupOver.transform.position += new Vector3(0, screenHeight/2, 0);
+            canvasGroupOver.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0);
         }
     }
 }

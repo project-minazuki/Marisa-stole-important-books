@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/test0.1.5.apk
+D:/source/rua3/rua3 -fuben-fuben/touhou_the_big_coffer/test0.2.0.apk
 SceneListBegin?
 Assets/Scenes/Start.unity
 Assets/Scenes/Setting.unity
@@ -110,10 +110,11 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 0fd6822f6177297bd0eb4d83cc7a9030 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+32361868e4535685fe25607a4e6d508d Assembly-CSharp.dll:.BackgroundMove00
 7da108d8223c1bf1dc5a12d568df68e6 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UI_InfiniteScroll
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIScreenEffect
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.PPIViewer
-71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.GameOver
+5de2d500f0699c0aa405e81cd4af99c5 Assembly-CSharp.dll:.GameOver
 db9766c574a5f18d1dcf1033c35c457f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIPrimitiveBase
 1fe3dfb66840021080c4917a7e9e57e7 Assembly-CSharp.dll:UnityEngine.UI.ReturnKeyTriggersButton
 2d473844edf01f72eff534fe8e48ed4b Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.testHref
@@ -187,7 +188,9 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 b2094546ca2b3f38f928fd55bea1b188 Assembly-CSharp.dll:UnityEngine.UI.Extensions.BoundTooltipItem
 401dfdac818367fbc1ace7bf9305f698 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UILineRenderer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.RescaleDragPanel
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BackgroundMove
 80216f2ce5549c4922a10ffe58c5af28 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UI_Knob
+23cae1d0b4330057226e75e012e9bec6 Assembly-CSharp.dll:.Shadow
 b35a5f120f31db0fc1d2eea1cc561f8d Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIPolygon
 28d08cecb93c291a6e0aeb985d1ce275 Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.Example03Scene
 afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.Bolt
@@ -240,6 +243,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
 7bb02911a4e04d0ebc77cfe0d5bdb3d2 Assembly-CSharp.dll:UnityEngine.UI.Extensions.MonoSpacing
 38dd3aae2704e9cf57176183070a3a2b Assembly-CSharp.dll:UnityEngine.UI.Extensions.Accordion
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.BGMove
 bf4698a3b70ae92d7166ab31c3de7991 Assembly-CSharp.dll:UnityEngine.UI.Extensions.CylinderText
 78cdf3f627979538e95dac45465d69dd Assembly-CSharp.dll:UnityEngine.UI.Extensions.ColorPicker.ColorSlider
 c913c1a650d9fa5fb48d6e06dcf86e99 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIFlippable
@@ -300,7 +304,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 fe2d355deb0ca31d59a0a7cf4d141fc3 Assembly-CSharp.dll:TMPro.Examples.Benchmark04
 4d16cfbaa8e821a2b370e80844a0e9bc Assembly-CSharp.dll:TMPro.Examples.TextMeshSpawner
 7111abb309d479fd7d33101385a80e8a Assembly-CSharp.dll:UnityEngine.UI.Extensions.MenuManager
-bb2c65d4dfe914ab9963197ae12b47a0 Assembly-CSharp.dll:.GameManage
+780088cfc497ba99512f75c76ab3d2f7 Assembly-CSharp.dll:.GameManage
 e63944317d2f5958e31963668bb29158 Assembly-CSharp.dll:TMPro.Examples.VertexShakeB
 eadc290970d1489ba6c4e778647fe0b3 Assembly-CSharp.dll:UnityEngine.UI.Extensions.SegmentedControl
 f8f7a85a19df289f9d37a3cf805a872c Assembly-CSharp.dll:UnityEngine.UI.Extensions.Gradient2
@@ -345,4 +349,3 @@ e5ee43ede19111e51b78dbbe3af736a9 Assembly-CSharp.dll:UnityEngine.UI.Extensions.U
 b474d6331783864a4f4f41cd2727638d Assembly-CSharp.dll:UnityEngine.UI.Extensions.SoftMaskScript
 eb8130637618d68e5d210dfe3a7b030c Assembly-CSharp.dll:UnityEngine.UI.Extensions.DiamondGraph
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIMultiplyEffect
-23cae1d0b4330057226e75e012e9bec6 Assembly-CSharp.dll:.Shadow

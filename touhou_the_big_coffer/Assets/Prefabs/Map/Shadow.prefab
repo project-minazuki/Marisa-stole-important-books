@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7013483029761116427}
   - component: {fileID: 9039325202666954133}
   - component: {fileID: 3665818695194441872}
-  - component: {fileID: 3469832950059407534}
+  - component: {fileID: 1954868157940398761}
   m_Layer: 0
   m_Name: Shadow
   m_TagString: Wall
@@ -73,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 9
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f47b1301233a8045a41668b2bd788c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3469832950059407534
+--- !u!114 &1954868157940398761
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

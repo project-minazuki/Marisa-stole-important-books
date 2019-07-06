@@ -28,10 +28,6 @@ public class DeathTouch : MonoBehaviour
         {
             statefulInspection = gameControllerObject.GetComponent<StatefulInspection>();
         }
-        if (statefulInspection == null)
-        {
-            Debug.Log("Cannot find 'GameController' script");
-        }
         //修改*************
     }
 
