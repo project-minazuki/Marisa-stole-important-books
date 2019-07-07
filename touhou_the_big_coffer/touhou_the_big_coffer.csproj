@@ -623,15 +623,32 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Animations\EnemyAnimation.cs" />
+    <Compile Include="Assets\Scripts\Animations\PlayerAnimation.cs" />
+    <Compile Include="Assets\Scripts\Background\BackgroundMove00.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Camera\InvisibleWallMove.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Bolt.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Items\Bubble.cs" />
+    <Compile Include="Assets\Scripts\Items\panding.cs" />
+    <Compile Include="Assets\Scripts\Items\Rotate1.cs" />
+    <Compile Include="Assets\Scripts\Items\Rotate2.cs" />
+    <Compile Include="Assets\Scripts\Items\StarPlatinum.cs" />
+    <Compile Include="Assets\Scripts\Managers\DestroyByInvisibleWall.cs" />
     <Compile Include="Assets\Scripts\Managers\DestroyByTime.cs" />
     <Compile Include="Assets\Scripts\Managers\GameOver.cs" />
     <Compile Include="Assets\Scripts\Managers\MapCreator.cs" />
     <Compile Include="Assets\Scripts\Managers\Score.cs" />
+    <Compile Include="Assets\Scripts\Managers\StatefulInspection.cs" />
     <Compile Include="Assets\Scripts\Map\DeathTouch.cs" />
-    <Compile Include="Assets\Scripts\Map\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Map\MagicCircle.cs" />
+    <Compile Include="Assets\Scripts\Map\Shadow.cs" />
+    <Compile Include="Assets\Scripts\Player\Afterimage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoving.cs" />
+    <Compile Include="Assets\Scripts\UI\GameManage.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

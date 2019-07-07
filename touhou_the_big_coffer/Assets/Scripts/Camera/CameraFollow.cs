@@ -24,12 +24,12 @@ public class CameraFollow : MonoBehaviour
         if (zoomInNum < 11)
         {
             zoomInNum += 1;
-            transform.position = new Vector3(transform.position.x, transform.position.y + (player.transform.position.y - transform.position.y) / 1.3f, transform.position.z + 0.5f * (2.1f - zoomInNum / 5));
+            transform.position = new Vector3(transform.position.x, transform.position.y + (player.transform.position.y - transform.position.y) / 1.3f, transform.position.z + 0.25f * (2.1f - zoomInNum / 5));
         }
         else
         {
             zoomInNum = 11;
-            transform.position = new Vector3(transform.position.x, transform.position.y + (player.transform.position.y - transform.position.y) / 1.3f, -5);
+            transform.position = new Vector3(transform.position.x, transform.position.y + (player.transform.position.y - transform.position.y) / 1.3f, -7.5f);
         }
     }
     public void zoomOut()
@@ -37,7 +37,7 @@ public class CameraFollow : MonoBehaviour
         if (zoomInNum > 0)
         {
             zoomInNum -= 1;
-            transform.position = new Vector3(transform.position.x, transform.position.y / 1.3f, transform.position.z - 0.5f * (zoomInNum / 5 - 0.1f));
+            transform.position = new Vector3(transform.position.x, transform.position.y / 1.3f, transform.position.z - 0.25f * (zoomInNum / 5 - 0.1f));
         }
         else
         {

@@ -10,11 +10,19 @@ public class Bolt : MonoBehaviour
     private GameObject player;
     private Vector2 direction;
 
+    StatefulInspection statefulInspection;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         direction = new Vector2(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y).normalized;
+
+        GameObject gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
+        if (gameControllerObject != null)
+        {
+            statefulInspection = gameControllerObject.GetComponent<StatefulInspection>();
+        }
     }
 
     // Update is called once per frame
@@ -22,5 +30,11 @@ public class Bolt : MonoBehaviour
     {
         timeSpeed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().timeSpeed;
         GetComponent<Rigidbody2D>().velocity = direction * speed * timeSpeed;
+        UpdateDistance();
+    }
+    private void UpdateDistance()
+    {
+        if (statefulInspection.isStarPlatinum == true && Vector2.Distance(gameObject.transform.position, player.transform.position) <= 1.1)
+            Destroy(gameObject);
     }
 }

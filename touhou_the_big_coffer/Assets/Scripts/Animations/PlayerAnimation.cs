@@ -21,8 +21,6 @@ public class PlayerAnimation : MonoBehaviour
     void Update()
     {
         animator.speed = playerControl.timeSpeed;
-        if (playerMoving.isPlayerDashing) animator.SetBool("Dash", true);
-        else animator.SetBool("Dash", false);
         if (playerMoving.isPlayerClimbing) animator.SetBool("Climb", true);
         else animator.SetBool("Climb", false);
     }

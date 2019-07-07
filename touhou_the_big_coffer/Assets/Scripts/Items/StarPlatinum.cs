@@ -29,6 +29,7 @@ public class StarPlatinum : MonoBehaviour
         {
             Destroy(gameObject);
             statefulInspection.Starplatinum();
+            statefulInspection.touchStarPlatinum = true;
             //print("StarPlatinum is true");
         }
     }

@@ -224,9 +224,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvasGroup: {fileID: 1847261881}
+  canvasGroupOver: {fileID: 0}
   screenHeight: 0
   screenWidth: 0
-  timescale: 0
 --- !u!4 &282618595
 Transform:
   m_ObjectHideFlags: 0

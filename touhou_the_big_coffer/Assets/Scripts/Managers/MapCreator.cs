@@ -6,7 +6,7 @@ public class MapCreator : MonoBehaviour
 {
     public GameObject wall;
     public GameObject stab;
-    public GameObject shadow;
+    public GameObject MC;
     public GameObject bonus;
     public GameObject starplatinum;
     public GameObject player;
@@ -42,7 +42,7 @@ public class MapCreator : MonoBehaviour
              
             Instantiate(wall, new Vector3(newWallx += 1, usedY[0], 0), gameObject.transform.rotation);
             Instantiate(wall, new Vector3(newWallx, -4, 0), gameObject.transform.rotation);
-            if (Random.Range(1, 5) == 3 && usedY[0] != -3) Instantiate(stab, new Vector3(newWallx, -3.35f, 0), gameObject.transform.rotation);
+            if (Random.Range(0, 100) >= 90 - positionx/20 && usedY[0] != -3) Instantiate(stab, new Vector3(newWallx, -3.35f, 0), gameObject.transform.rotation);
             if (Random.Range(1, 5) == 4) Instantiate(stab, new Vector3(newWallx, usedY[0] + 0.65f, 0), gameObject.transform.rotation);
 
 
@@ -56,10 +56,10 @@ public class MapCreator : MonoBehaviour
             if (Random.Range(0, 100) >= 97f) { if (usedY[2] != usedY[0] && usedY[2] != usedY[1]) { Instantiate(starplatinum, new Vector3(newWallx, usedY[2], 0), gameObject.transform.rotation); } }
             //******生成Starplatinum
 
-            //生成Shadow******
+            //生成MC******
             usedY[3] = Random.Range(-2, 5);
-            if (Random.Range(0, 100) >= 85f) { if (usedY[3] != usedY[0] && usedY[3] != usedY[1] && usedY[3] != usedY[2]) { Instantiate(shadow, new Vector3(newWallx, usedY[3], 0), gameObject.transform.rotation); } }
-            //******生成Shadow
+            if (Random.Range(0, 100) >= 95f - positionx / 30 && positionx > 50) { if (usedY[3] != usedY[0] && usedY[3] != usedY[1] && usedY[3] != usedY[2]) { Instantiate(MC, new Vector3(newWallx, usedY[3], 0f), gameObject.transform.rotation); } }
+            //******生成MC
 
         }
     }

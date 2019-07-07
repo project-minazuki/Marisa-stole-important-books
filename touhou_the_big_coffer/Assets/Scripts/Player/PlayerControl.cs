@@ -26,11 +26,11 @@ public class PlayerControl : MonoBehaviour
     private Ray ray;
     private float keyHoldTime = 0;
     private GameObject particle;
-    private Vector2 startPosition;
     Score score;
 
 #if UNITY_IOS || UNITY_ANDROID || UNITY_EDITOR  //if current platform is mobile,
 
+    private Vector2 startPosition;
     private float screenWidth;
     private Vector2 touchPosition;
 
@@ -118,7 +118,7 @@ public class PlayerControl : MonoBehaviour
                     }
                     if (touchPosition.x > screenWidth * 2 / 3)//screenWidth在Start中已经赋值=>screenWidth = Screen.width;
                     {
-                        if (touch.phase == TouchPhase.Stationary || Vector2.Distance(startPosition, touchPosition) < screenWidth / 20)
+                        if (touch.phase == TouchPhase.Stationary || Vector2.Distance(startPosition, touchPosition) < 50)
                         {
                             keyHoldTime++;
                         }
@@ -130,7 +130,7 @@ public class PlayerControl : MonoBehaviour
                         {
                             cameraFollow.zoomIn();
                             flag1 = true;
-                            if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 20 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
+                            if (Vector2.Distance(startPosition, touchPosition) > 50 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
                             {
                                 Line();
                             }
@@ -150,7 +150,7 @@ public class PlayerControl : MonoBehaviour
                         if (touch.phase == TouchPhase.Ended)
                         {
                             keyHoldTime = 0;                         
-                            if (Vector2.Distance(startPosition, touchPosition) > screenWidth / 20 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
+                            if (Vector2.Distance(startPosition, touchPosition) > 50 && playerMoving.isPlayerDashed == false && startPosition.x < touchPosition.x)
                             {
                                 dash();
                             }

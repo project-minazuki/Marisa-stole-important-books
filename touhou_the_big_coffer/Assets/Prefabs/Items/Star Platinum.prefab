@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7986495892398945289}
   - component: {fileID: 1310618368048490981}
-  - component: {fileID: 8388733317198874745}
   - component: {fileID: 4556620399624480479}
   - component: {fileID: 2668088588822506742}
   - component: {fileID: 2796139387497237917}
+  - component: {fileID: 3313767325485778645}
   m_Layer: 0
   m_Name: Star Platinum
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 6772498332252004186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -981.5309, y: 1088.5104, z: -26.159307}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 0.18, y: 0.18, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -56,22 +56,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!58 &8388733317198874745
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6772498332252004186}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.08
 --- !u!212 &4556620399624480479
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -109,8 +93,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.8221281, g: 0.5613208, b: 1, a: 1}
+  m_Sprite: {fileID: 21300000, guid: eac2ebb9681f82b4b87cd7019fc000cc, type: 3}
+  m_Color: {r: 1, g: 0.9372549, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -144,3 +128,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79f8b0b422f6e1b4eb91042bd9c8bdbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &3313767325485778645
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6772498332252004186}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.8

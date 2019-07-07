@@ -28,6 +28,6 @@ public class GameOver : MonoBehaviour
     {
         gameManage.GameOver();
         scoreText.text = "你的得分:" + score.score+"pt";
-        distanceText.text = "行进距离:" + score.basicScore + "km";
+        distanceText.text = "行进距离:" + score.basicScore + " m";
     }
 }
