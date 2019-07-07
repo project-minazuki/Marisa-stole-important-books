@@ -8,6 +8,7 @@ int main()
     std::cout << "Hello World!\n"; 
 	std::cout << "Vivid_rabbit has logged in successfully.";
 	std::cout << "rua";
+	std::cout << "rua rua rua";
 	std::cout << "Changed Name and tried revert.";
 }
 
