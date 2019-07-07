@@ -5,3 +5,34 @@
 /touhou_the_big_coffer/Temp/UnityVS_obj/Debug/touhou_the_big_coffer.Editor.csproj.CoreCompileInputs.cache
 /touhou_the_big_coffer/Temp/UnityVS_obj/Debug
 /touhou_the_big_coffer/Temp/UnityVS_obj
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Library/
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
