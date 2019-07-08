@@ -43,7 +43,7 @@ public class MapCreator : MonoBehaviour
              
             Instantiate(wall, new Vector3(newWallx += 1, usedY[0], 0), gameObject.transform.rotation);
             Instantiate(wall, new Vector3(newWallx, -4, 0), gameObject.transform.rotation);
-            if (Random.Range(0, 100) >= 90 - positionx/100 && usedY[0] != -3) Instantiate(stab, new Vector3(newWallx, -3.35f, 0), gameObject.transform.rotation);
+            if (Random.Range(0, 100) >= 90 - positionx/2000 && usedY[0] != -3) Instantiate(stab, new Vector3(newWallx, -3.35f, 0), gameObject.transform.rotation);
             if (Random.Range(1, 5) == 4) Instantiate(stab, new Vector3(newWallx, usedY[0] + 0.65f, 0), gameObject.transform.rotation);
 
             if (!boss)
@@ -60,7 +60,7 @@ public class MapCreator : MonoBehaviour
 
                 //生成MC******
                 usedY[3] = Random.Range(-2, 5);
-                if (Random.Range(0, 100) >= 95f - positionx / 300 && positionx > 200) { if (usedY[3] != usedY[0] && usedY[3] != usedY[1] && usedY[3] != usedY[2]) { Instantiate(MC, new Vector3(newWallx, usedY[3], 0f), gameObject.transform.rotation); } }
+                if (Random.Range(0, 100) >= 95f - positionx / 6000 && positionx > 200) { if (usedY[3] != usedY[0] && usedY[3] != usedY[1] && usedY[3] != usedY[2]) { Instantiate(MC, new Vector3(newWallx, usedY[3], 0f), gameObject.transform.rotation); } }
                 //******生成MC
             }
         }
@@ -69,7 +69,7 @@ public class MapCreator : MonoBehaviour
     {
         if (newEnemyx - positionx < 1 && !boss)
         {
-            Instantiate(enemy, new Vector3(player.transform.position.x + 9, 0, 0), gameObject.transform.rotation);
+            Instantiate(enemy, new Vector3(player.transform.position.x, 0, 0), gameObject.transform.rotation);
             boss = true;
         }
     }

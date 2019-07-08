@@ -22,14 +22,14 @@ public class Enemy : MonoBehaviour
         if (gameControllerObject != null)
         {
             score = gameControllerObject.GetComponent<Score>();
+            mapCreator = gameControllerObject.GetComponent<MapCreator>();
         }
         if (score == null)
         {
             Debug.Log("Cannot find 'GameController' script");
         }
 
-        player = GameObject.FindGameObjectWithTag("Player");
-        mapCreator = player.GetComponent<MapCreator>();
+        player = GameObject.FindGameObjectWithTag("Player");        
     }
 
     // Update is called once per frame
@@ -52,7 +52,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             score.addScore(50);
-            mapCreator.newEnemyx += 300;
+            mapCreator.newEnemyx = (int)player.transform.position.x + 300;
             mapCreator.boss = false;
             Destroy(gameObject);
         }
