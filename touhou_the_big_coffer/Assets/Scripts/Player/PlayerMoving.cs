@@ -10,7 +10,8 @@ public class PlayerMoving : MonoBehaviour
     public bool isPlayerDashed = false;
     public bool isPlayerDashing = false;
     public bool isPlayerJumpedTwice = false;
-
+    public bool isPlayerdown = false;
+    public bool isPlayerUp=false;
     PlayerControl playerControl;
 
     // Start is called before the first frame update
