@@ -5,8 +5,10 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    public GameObject shot;
+    public GameObject shot1;
+    public GameObject shot2;
     public float timeBetweenFire;
+    public int shotNum;
 
     MapCreator mapCreator;
 
@@ -60,6 +62,11 @@ public class Enemy : MonoBehaviour
 
     private void Fire()
     {
-        Instantiate(shot, gameObject.transform.position, gameObject.transform.rotation);
+        int tmp = Random.Range(0, 360);
+        for (int i = 0; i < shotNum; i++)
+        {
+            Instantiate(shot1, transform.position, Quaternion.Euler(0, 0, 360 / shotNum * i + tmp + 180 / shotNum));
+            Instantiate(shot2, transform.position, Quaternion.Euler(0, 0, 360 / shotNum * i + tmp));
+        }
     }
 }

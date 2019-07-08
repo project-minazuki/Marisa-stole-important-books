@@ -39,7 +39,7 @@ public class DeathTouch : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player" && (collision.GetComponent<PlayerMoving>().isPlayerDashing == false || gameObject.tag == "Death"))
+        if (collision.gameObject.name == "Player")
         {
             if(statefulInspection.isStarPlatinum == false)
             Death();

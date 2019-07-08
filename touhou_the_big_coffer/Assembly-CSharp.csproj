@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Managers\DestroyByTime.cs" />
     <Compile Include="Assets\Scripts\Managers\GameOver.cs" />
     <Compile Include="Assets\Scripts\Managers\MapCreator.cs" />
+    <Compile Include="Assets\Scripts\Managers\Savedata.cs" />
     <Compile Include="Assets\Scripts\Managers\Score.cs" />
     <Compile Include="Assets\Scripts\Managers\StatefulInspection.cs" />
     <Compile Include="Assets\Scripts\Map\DeathTouch.cs" />

@@ -10,7 +10,7 @@ public class GameOver : MonoBehaviour
     GameManage gameManage;
     public Text scoreText;
     public Text distanceText;
-
+    public Text record;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +27,7 @@ public class GameOver : MonoBehaviour
     public void Over()
     {
         gameManage.GameOver();
+        if (Savedata.SaveProcess().IsHighScore()) record.text = "新纪录!";
         scoreText.text = "你的得分:" + score.score+"pt";
         distanceText.text = "行进距离:" + score.basicScore + " m";
     }

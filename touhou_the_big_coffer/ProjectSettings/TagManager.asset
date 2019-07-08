@@ -8,6 +8,7 @@ TagManager:
   - Death
   - Enemy
   - Canvas_Background
+  - Bolt 1
   layers:
   - Default
   - TransparentFX

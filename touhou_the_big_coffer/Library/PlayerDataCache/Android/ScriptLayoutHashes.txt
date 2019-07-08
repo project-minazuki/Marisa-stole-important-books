@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/test0.2.2.apk
+D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/test0.2.3.apk
 SceneListBegin?
 Assets/Scenes/Start.unity
 Assets/Scenes/Setting.unity
@@ -11,7 +11,7 @@ SceneListEnd?
 51f8d470cac09a8e32d2d547963d8efc Assembly-CSharp.dll:UnityEngine.UI.Extensions.ResizePanel
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.DeathTouch
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
-60e30d170f5e5a191d73dc5079e50891 Assembly-CSharp.dll:.Enemy
+445dbd7808b9494f8cfd7ac59279c0c6 Assembly-CSharp.dll:.Enemy
 0edce28ae49ada447a6366418f39f87a Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.Example02ScrollViewCell
 01aa15e337e3a9c62f15153dfac6d589 Unity.TextMeshPro.dll:TMPro.TMP_Dropdown
 efee04fd7a8b900e85d693e88d5b5f35 Assembly-CSharp.dll:UnityEngine.UI.Extensions.ColorPicker.ColorPickerControl
@@ -115,7 +115,7 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 7da108d8223c1bf1dc5a12d568df68e6 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UI_InfiniteScroll
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIScreenEffect
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.PPIViewer
-5de2d500f0699c0aa405e81cd4af99c5 Assembly-CSharp.dll:.GameOver
+fa5f41717435e3a2c8ac7a1c094631f2 Assembly-CSharp.dll:.GameOver
 db9766c574a5f18d1dcf1033c35c457f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIPrimitiveBase
 1fe3dfb66840021080c4917a7e9e57e7 Assembly-CSharp.dll:UnityEngine.UI.ReturnKeyTriggersButton
 2d473844edf01f72eff534fe8e48ed4b Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.testHref

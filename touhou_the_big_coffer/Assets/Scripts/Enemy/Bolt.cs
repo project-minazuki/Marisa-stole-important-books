@@ -16,8 +16,6 @@ public class Bolt : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        direction = new Vector2(player.transform.position.x - transform.position.x, player.transform.position.y - transform.position.y).normalized;
-
         GameObject gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
         if (gameControllerObject != null)
         {
@@ -28,8 +26,8 @@ public class Bolt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeSpeed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().timeSpeed;
-        GetComponent<Rigidbody2D>().velocity = direction * speed * timeSpeed;
+        if (gameObject.tag == "Bolt 1")timeSpeed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().timeSpeed;
+        transform.Translate(Vector3.right * speed * timeSpeed * Time.deltaTime, Space.Self);
         UpdateDistance();
     }
     private void UpdateDistance()
