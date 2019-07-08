@@ -8,6 +8,8 @@ public class Enemy : MonoBehaviour
     public GameObject shot;
     public float timeBetweenFire;
 
+    MapCreator mapCreator;
+
     private float timeSpeed = 1;
     private GameObject player;
     private Score score;
@@ -27,7 +29,7 @@ public class Enemy : MonoBehaviour
         }
 
         player = GameObject.FindGameObjectWithTag("Player");
-
+        mapCreator = player.GetComponent<MapCreator>();
     }
 
     // Update is called once per frame
@@ -50,6 +52,8 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             score.addScore(50);
+            mapCreator.newEnemyx += 300;
+            mapCreator.boss = false;
             Destroy(gameObject);
         }
     }

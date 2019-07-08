@@ -88,7 +88,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 41f641d4045f93d49922a9b62806ade1,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -5480,6 +5481,8 @@ MonoBehaviour:
     type: 3}
   player: {fileID: 3275946563811555364, guid: c831e5e42e1024c4594ed560bbb39ace, type: 3}
   positionx: 0
+  newEnemyx: 50
+  boss: 0
   enemy: {fileID: 6651350110896042059, guid: 9b1033d438afd96428bb56d8928614b2, type: 3}
 --- !u!114 &1878316867
 MonoBehaviour:

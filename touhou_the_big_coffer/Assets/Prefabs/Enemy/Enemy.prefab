@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e417950c2b72db44927ac0baa42c96c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 3955637374794167608, guid: eeb5fb951f0847c43a53c32863f38058, type: 3}
+  shot: {fileID: 2364050527048490796, guid: eeb5fb951f0847c43a53c32863f38058, type: 3}
   timeBetweenFire: 1200
 --- !u!95 &6651350110896042058
 Animator:
