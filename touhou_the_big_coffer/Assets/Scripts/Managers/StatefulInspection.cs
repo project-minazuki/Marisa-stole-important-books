@@ -14,7 +14,7 @@ public class StatefulInspection : MonoBehaviour
     PlayerControl playerControl;
     public float realtime = 0f;
     private float extratime;
-    public float realtimefixed;
+    public float realtimefixed=0f;
     //修改******
     public bool touchStarPlatinum = false;
     //******修改
@@ -49,6 +49,13 @@ public class StatefulInspection : MonoBehaviour
     public void UpdateStarplatinum()
     {
         //修改*****
+        if (touchStarPlatinum == true)
+        {
+            realtime = Time.time;
+            realtimefixed = realtime;
+            Instantiate(bubble, new Vector3(player.transform.position.x, player.transform.position.y, 0), gameObject.transform.rotation);
+            touchStarPlatinum = false;
+        }
         extratime = (Time.time - SPtime) * playerControl.timeSpeed;
         realtime = realtime + extratime;
         SPtime = Time.time;
@@ -56,13 +63,9 @@ public class StatefulInspection : MonoBehaviour
         {
             isStarPlatinum = false;
         }
-        if (touchStarPlatinum == true)
-        {
-            realtimefixed = Time.time;
-            realtime = realtimefixed;
-            Instantiate(bubble, new Vector3(player.transform.position.x, player.transform.position.y, 0), gameObject.transform.rotation);
-            touchStarPlatinum = false;
-        }
+        
+       
+        
     }
 
     public void UpdateState()

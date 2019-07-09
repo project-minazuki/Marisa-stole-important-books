@@ -26,6 +26,7 @@ public class StarPlatinum : MonoBehaviour
             Destroy(gameObject);
             statefulInspection.Starplatinum();
             statefulInspection.touchStarPlatinum = true;
+            Debug.Log("bug");
             //statefulInspection.realtimefixed = Time.time;
             //print("StarPlatinum is true");
         }

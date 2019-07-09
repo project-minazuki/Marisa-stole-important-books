@@ -1,10 +1,11 @@
 Android
 PlayerPath?
-D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/test0.2.6.apk
+D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/test0.2.9.apk
 SceneListBegin?
 Assets/Scenes/Start.unity
 Assets/Scenes/Setting.unity
 Assets/Scenes/Scene.unity
+Assets/Scenes/Scene2.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Rotate1
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.ScrollSnapScrollbarHelper
@@ -75,7 +76,8 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 85e8b56c65fd53018d7149f5723fe6f6 Assembly-CSharp.dll:UnityEngine.UI.Extensions.ReorderableListElement
 b31ef1c110c5a7ed74ad67be3ae59038 Unity.TextMeshPro.dll:TMPro.TMP_InputField
-7e13c29ca96471b00ab6da48db8c2bb6 Assembly-CSharp.dll:.dayAndNight
+6ef8cb693ceb4fb082a0c2b3051fba62 Assembly-CSharp.dll:.PlayerData
+ed3eb6b7cdfc6da4726a12b302e472b2 Assembly-CSharp.dll:.dayAndNight
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.RaycastMask
 d41beb6f162b40d4ef35ac660a467730 Assembly-CSharp.dll:UnityEngine.UI.Extensions.HorizontalScrollSnap
 d1bfd3339c8d62684d4ca7d389cbf6ae Assembly-CSharp.dll:UnityEngine.UI.Extensions.ShineEffect
@@ -116,12 +118,13 @@ abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.Tou
 7da108d8223c1bf1dc5a12d568df68e6 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UI_InfiniteScroll
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIScreenEffect
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.PPIViewer
-0f64ed045ae60222da4c732928066cdb Assembly-CSharp.dll:.GameOver
+7127d2a69e99f3c17ec6accf29c9b832 Assembly-CSharp.dll:.GameOver
 db9766c574a5f18d1dcf1033c35c457f Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIPrimitiveBase
 1fe3dfb66840021080c4917a7e9e57e7 Assembly-CSharp.dll:UnityEngine.UI.ReturnKeyTriggersButton
 2d473844edf01f72eff534fe8e48ed4b Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.testHref
 90d380370192a7fbb4ca5d4d4390a1ac Assembly-CSharp.dll:UnityEngine.UI.Extensions.ScrollPositionController
 9a9a9547793ed195ce65e637a05a70d1 Assembly-CSharp.dll:UnityEngine.EventSystems.Extensions.AimerInputModule
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MusicControl1
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 780e8f682b3221346c034a6712a0fd25 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -185,6 +188,7 @@ be5d197a0864cf33fac59c37a9a7f040 Assembly-CSharp.dll:.PlayerControl
 429aa3ffb60321a725a33bc0c2824d15 Assembly-CSharp.dll:UnityEngine.UI.Extensions.CooldownButton
 af596be9be034123390a8fe2b11945ef Assembly-CSharp.dll:UnityEngine.UI.Extensions.CurvedLayout
 10516c54b4d4dff0a3480f8b1343b7ad Assembly-CSharp.dll:UnityEngine.UI.Extensions.ColorPicker.HexColorField
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MainMusicControl
 2260ca748078376d13b72ba4a2d758ca Assembly-CSharp.dll:UnityEngine.UI.Extensions.TabNavigationHelper
 3944840dda234ba2d836b2701a219616 Assembly-CSharp.dll:.MagicCircle
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
@@ -199,6 +203,7 @@ b35a5f120f31db0fc1d2eea1cc561f8d Assembly-CSharp.dll:UnityEngine.UI.Extensions.U
 afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.Bolt
 79235b956bf74c329ef5670d3874a70a Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIWindowBase
 d41beb6f162b40d4ef35ac660a467730 Assembly-CSharp.dll:UnityEngine.UI.Extensions.VerticalScrollSnap
+e55341433f1a85dd4af64387ec5b6f89 Assembly-CSharp.dll:.test
 3375c3d749f8f4cad889721b431bdc27 Assembly-CSharp.dll:TMPro.Examples.CameraController
 309bf9f893e75de1ea64a17250fcfe0c Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.ScrollingCalendar
 ed9ba7542f7444d60886fcdae1af8047 Assembly-CSharp.dll:UnityEngine.UI.Extensions.TextPic
@@ -252,8 +257,10 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 bf4698a3b70ae92d7166ab31c3de7991 Assembly-CSharp.dll:UnityEngine.UI.Extensions.CylinderText
 78cdf3f627979538e95dac45465d69dd Assembly-CSharp.dll:UnityEngine.UI.Extensions.ColorPicker.ColorSlider
 c913c1a650d9fa5fb48d6e06dcf86e99 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UIFlippable
+dde99fef8679bb4b7961513d9f3dad01 Assembly-CSharp.dll:.Option
 11319334e5365797f8056694f9b5dae4 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CameraFollow
+1190b079e73b344a322d23c33cce3128 Assembly-CSharp.dll:.MusicControl
 478ff0022b65e07b389caf55be8ec984 Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.Example02ScrollView
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:TMPro.TMP_DigitValidator
 6078eec3507ea7b64ac93d516111b1e7 Assembly-CSharp.dll:UnityEngine.UI.Extensions.Gradient
@@ -347,6 +354,7 @@ a544ec2cf3213599228a098c645b8f93 Assembly-CSharp.dll:UnityEngine.UI.Extensions.U
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 a5688a4c52e781c40834d181ba5c200a Assembly-CSharp.dll:UnityEngine.UI.Extensions.UICornerCut
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:UnityEngine.UI.Extensions.ToolTip
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.MusicControl2
 478ff0022b65e07b389caf55be8ec984 Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.Example01ScrollView
 55ccb6b8dfbbbc7dbe926fd546d747d3 Assembly-CSharp.dll:UnityEngine.UI.Extensions.Examples.OptionsMenu
 e5ee43ede19111e51b78dbbe3af736a9 Assembly-CSharp.dll:UnityEngine.UI.Extensions.UI_TweenScale
