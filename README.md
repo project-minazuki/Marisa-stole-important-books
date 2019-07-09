@@ -1,5 +1,5 @@
 # 2019暑期工程实训  
-**Project Name**：东方赛钱箱（暂定）  
+**Project Name**：魔理沙盗取了重要的书本  
 **Project Adress**：lilyknight / touhou_the_big_coffer  
 **Date & Time**：2019/06/29 ~ 2019/07/10  
 **Staff**：刘书哲、唐铭聪、蔡嘉琦、庆俊杰  
