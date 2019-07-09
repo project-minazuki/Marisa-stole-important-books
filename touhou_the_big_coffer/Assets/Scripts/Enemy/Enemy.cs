@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         attackMode = 1;//Random.Range(1, 3);
         direction = -1;
         GameObject gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
@@ -41,7 +42,7 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("Cannot find 'GameController' script");
         }
-
+        shotNum = mapCreator.shotNum;
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
@@ -60,10 +61,10 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             score.addScore(50);
-            mapCreator.newEnemyx = (int)player.transform.position.x + 300;
+            mapCreator.newEnemyx = (int)player.transform.position.x + 100;
             mapCreator.boss = false;
             Destroy(gameObject);
-            for (i = 1; i <= 15; i++)
+            for (i = 1; i <= 20; i++)
             {
                 Instantiate(DeathBonus, new Vector3(positionx, positiony, 0), gameObject.transform.rotation);
             }

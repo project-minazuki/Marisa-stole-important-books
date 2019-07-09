@@ -14,16 +14,25 @@ public class dayAndNight : MonoBehaviour
     public GameObject cold2;
     public Vector2 time;
     public string colorText;
+    public float moveSpeedx;
+    public float moveSpeedy;
+    public float max;
 
     PlayerControl playerControl;
 
     private float timeSpeed;
-    private int second = 0;
+    private float second = 0;
     // Start is called before the first frame update
     void Start()
     {
-        time = new Vector2(17, 0);
+        time = new Vector2(12, 0);
         colors = new Color[7];
+        moon.transform.localPosition = new Vector3(max, moon.transform.localPosition.y, 0);
+        moon2.transform.localPosition = new Vector3(max, moon2.transform.localPosition.y, 0);
+        sun.transform.localPosition = new Vector3(0, sun.transform.localPosition.y, 0);
+        warm.transform.localPosition = new Vector3(0, warm.transform.localPosition.y, 0);
+        cold1.transform.localPosition = new Vector3(0, cold1.transform.localPosition.y, 0);
+        cold2.transform.localPosition = new Vector3(0, cold2.transform.localPosition.y, 0);
         ColorUtility.TryParseHtmlString("#FF9010", out colors[0]);//16-18
         ColorUtility.TryParseHtmlString("#3333AE", out colors[1]);//18-20 cold2
         ColorUtility.TryParseHtmlString("#44567F", out colors[2]);//20-24
@@ -36,13 +45,14 @@ public class dayAndNight : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        timeSpeed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().timeSpeed;
         refreshTime();
+        refreshPosition();
     }
 
     private void refreshTime()
     {
-        timeSpeed = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerControl>().timeSpeed;
-        second += (int)(1.2 * timeSpeed);
+        second += (timeSpeed);
         if (second >= 60)
         {
             second -= 60;
@@ -70,29 +80,63 @@ public class dayAndNight : MonoBehaviour
         if (6 <= hour && hour < 10) changeColor(4, 4);
         if (10 <= hour && hour < 14) changeColor(5, 4);
         if (14 <= hour && hour < 17) changeColor(6, 3);
-        if (hour == 19)
+    }
+
+    private void refreshPosition()
+    {
+        if (time == new Vector2(19, 0)) //此时太阳从左消失，月亮从右出现
         {
-            moon.GetComponent<Image>().enabled = true;
+            sun.transform.localPosition = new Vector3(max, sun.transform.localPosition.y, 0);
+            warm.transform.localPosition = new Vector3(max, warm.transform.localPosition.y, 0);
+            cold1.transform.localPosition = new Vector3(max, cold1.transform.localPosition.y, 0);
+            cold2.transform.localPosition = new Vector3(max, cold2.transform.localPosition.y, 0);
             moon2.GetComponent<Image>().enabled = true;
+            moon.GetComponent<Image>().enabled = true;
             sun.GetComponent<Image>().enabled = false;
             cold2.GetComponent<Image>().enabled = false;
         }
-        if (hour == 4)
+        if (time == new Vector2(5, 0)) //此时月亮从左消失，太阳从右出现
         {
+            moon.transform.localPosition = new Vector3(max, moon.transform.localPosition.y, 0);
+            moon2.transform.localPosition = new Vector3(max, moon2.transform.localPosition.y, 0);
             moon.GetComponent<Image>().enabled = false;
             moon2.GetComponent<Image>().enabled = false;
-            sun.GetComponent<Image>().enabled = true;
             cold1.GetComponent<Image>().enabled = true;
+            sun.GetComponent<Image>().enabled = true;
         }
-        if (hour == 16)
+        if (time == new Vector2(16, 0))
         {
+            sun.GetComponent<Image>().enabled = false;
             warm.GetComponent<Image>().enabled = true;
+            sun.GetComponent<Image>().enabled = true;
             cold1.GetComponent<Image>().enabled = false;
         }
-        if (hour == 18)
+        if (time == new Vector2(18, 0))
         {
             warm.GetComponent<Image>().enabled = false;
+            sun.GetComponent<Image>().enabled = false;
             cold2.GetComponent<Image>().enabled = true;
+            sun.GetComponent<Image>().enabled = true;
+        }
+        if (time.x >= 5 && time.x < 19)
+        {
+            sun.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/60, (12 - time.x) * moveSpeedy * timeSpeed/60, 0);
+            warm.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/60, (12 - time.x) * moveSpeedy * timeSpeed/60, 0);
+            cold1.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/60, (12 - time.x) * moveSpeedy * timeSpeed/60, 0);
+            cold2.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/60, (12 - time.x) * moveSpeedy * timeSpeed/60, 0);
+        }
+        if (time.x < 5 || time.x >= 19)
+        {
+            if (time.x < 5)
+            {
+                moon.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed, -time.x * moveSpeedy * timeSpeed, 0);
+                moon2.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed, -time.x * moveSpeedy * timeSpeed, 0);
+            }
+            else
+            {
+                moon.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed, (24 - time.x) * moveSpeedy * timeSpeed, 0);
+                moon2.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed, (24 - time.x) * moveSpeedy * timeSpeed, 0);
+            }
         }
     }
 

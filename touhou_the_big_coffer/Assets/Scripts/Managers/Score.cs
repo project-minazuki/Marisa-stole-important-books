@@ -12,6 +12,7 @@ public class Score : MonoBehaviour
     public int test;
     public GameObject player;
     public float positionX;
+    GameOver gameOver;
 
     void Start()
     {
@@ -20,21 +21,29 @@ public class Score : MonoBehaviour
         extraScore = 0;
         test = 0;
         updateScore();
+        gameOver = GetComponent<GameOver>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (player != null)
+        if (gameOver.zen == true)
         {
-            basicScore = (int)player.transform.position.x;
+            scoreText.text = "";
         }
-        else
+        else if (gameOver.zen == false)
         {
-            scoreText.text = "滑稽";
+            if (player != null)
+            {
+                basicScore = (int)player.transform.position.x;
+            }
+            else
+            {
+                scoreText.text = "滑稽";
+            }
+            score = basicScore + extraScore;
+            updateScore();
         }
-        score = basicScore + extraScore;
-        updateScore();
     }
 
     public void addScore(int newScoreValue)

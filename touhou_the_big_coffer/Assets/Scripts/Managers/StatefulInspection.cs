@@ -18,6 +18,7 @@ public class StatefulInspection : MonoBehaviour
     //修改******
     public bool touchStarPlatinum = false;
     //******修改
+    public bool kasi = false;
 
     // Start is called before the first frame update
     void Start()
@@ -36,13 +37,13 @@ public class StatefulInspection : MonoBehaviour
     {
         UpdateStarplatinum();
         UpdateState();
+
     }
 
     public void Starplatinum()
     {
         isStarPlatinum = true;
         SPtime = Time.time;
-        realtimefixed = Time.time;
     }
 
     public void UpdateStarplatinum()
@@ -57,6 +58,7 @@ public class StatefulInspection : MonoBehaviour
         }
         if (touchStarPlatinum == true)
         {
+            realtimefixed = Time.time;
             realtime = realtimefixed;
             Instantiate(bubble, new Vector3(player.transform.position.x, player.transform.position.y, 0), gameObject.transform.rotation);
             touchStarPlatinum = false;
@@ -66,6 +68,11 @@ public class StatefulInspection : MonoBehaviour
     public void UpdateState()
     {
         if (playerMoving.isPlayerBlocked == true && playerMoving.isPlayerdown == true && playerMoving.isPlayerUp == true)
+        {
+            kasi = true;
             gameOver.Over();
+            playerMoving.isPlayerdown = false;
+            playerMoving.isPlayerUp = false;
+        }
     }
 }
