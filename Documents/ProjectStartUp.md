@@ -1,9 +1,9 @@
 |项目名称|密级|版本|文档编号|
 |:-----:|:--:|:--:|:-----:|
-|“东方赛钱箱”|仅供收件方查询|Ver0.1|ProjectID_INIT_002|
+|“魔理沙盗取了重要的书本”|仅供收件方查询|Ver0.1|ProjectID_INIT_002|
 
-# “东方赛钱箱（暂定）”项目启动立项报告
-Touhou the Big Coffer Project Start-up Report
+# “魔理沙盗取了重要的书本”项目启动立项报告
+Marisa Has Stolen Important Books Project Start-up Report
 --------------------------------------------
 作者：Project Minazuki项目组
 
