@@ -84,3 +84,8 @@
 |`PlayerMoving`|控制了无操作时十六夜咲夜的行为|`./Player/`|继承自`MonoBehaviour`|
 |`GameManage`|描述了开始界面、暂停菜单等入口|`./UI/`|继承自`MonoBehaviour`|
 |`PauseButton`|描述了暂停按钮的行为以及入口|`./UI/`|继承自`MonoBehaviour`|
+
+### 3.2 基本流程  
+*注意：此工作流程图不能反映游戏的实际执行逻辑。*
+
+![alt 工作流程](.\assets\FLOW_VSDX.png)
