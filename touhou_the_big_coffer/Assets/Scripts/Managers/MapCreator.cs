@@ -13,9 +13,11 @@ public class MapCreator : MonoBehaviour
     public float positionx;
     public int newEnemyx = 100;
     public bool boss = false;
+    public int shotNum = 4;
 
     private int newWallx = 20;    
     public GameObject enemy;
+    public GameObject ground;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,8 @@ public class MapCreator : MonoBehaviour
         for (int i = -7; i <= 20; i += 1)
         {
             Instantiate(wall, new Vector3(i, -4, 0), gameObject.transform.rotation);
+            Instantiate(ground, new Vector3(i, -5, 0), gameObject.transform.rotation);
+            Instantiate(ground, new Vector3(i, -4, 0), gameObject.transform.rotation);
         }
     }
 
@@ -62,6 +66,8 @@ public class MapCreator : MonoBehaviour
                 usedY[3] = Random.Range(-2, 5);
                 if (Random.Range(0, 100) >= 95f - positionx / 600 && positionx > 200) { if (usedY[3] != usedY[0] && usedY[3] != usedY[1] && usedY[3] != usedY[2]) { Instantiate(MC, new Vector3(newWallx, usedY[3], 0f), gameObject.transform.rotation); } }
                 //******生成MC
+                Instantiate(ground, new Vector3(newWallx, -5, 0), gameObject.transform.rotation);
+                Instantiate(ground, new Vector3(newWallx, -4, 0), gameObject.transform.rotation);
             }
         }
     }
@@ -69,6 +75,7 @@ public class MapCreator : MonoBehaviour
     {
         if (newEnemyx - positionx < 1 && !boss)
         {
+            shotNum++;
             Instantiate(enemy, new Vector3(player.transform.position.x + 12, 0, 0), gameObject.transform.rotation);
             boss = true;
         }
