@@ -12,10 +12,6 @@ public class StarPlatinum : MonoBehaviour
         {
             statefulInspection = gameControllerObject.GetComponent<StatefulInspection>();
         }
-        if (statefulInspection == null)
-        {
-            Debug.Log("Cannot find 'GameController' script");
-        }
     }
 
     // Update is called once per frame
@@ -30,6 +26,7 @@ public class StarPlatinum : MonoBehaviour
             Destroy(gameObject);
             statefulInspection.Starplatinum();
             statefulInspection.touchStarPlatinum = true;
+            //statefulInspection.realtimefixed = Time.time;
             //print("StarPlatinum is true");
         }
     }

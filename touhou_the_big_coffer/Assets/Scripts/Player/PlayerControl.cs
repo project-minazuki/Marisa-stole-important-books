@@ -243,6 +243,7 @@ public class PlayerControl : MonoBehaviour
 
     }
 
+    //修改******
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "RefleshJump")
@@ -254,6 +255,15 @@ public class PlayerControl : MonoBehaviour
         {
             playerMoving.isPlayerBlocked = true;
         }
+        if (collision.gameObject.name == "Down")
+        {
+            playerMoving.isPlayerdown = true;
+        }
+        if (collision.gameObject.name == "Up")
+        {
+            playerMoving.isPlayerUp = true;
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -262,7 +272,16 @@ public class PlayerControl : MonoBehaviour
         {
             playerMoving.isPlayerBlocked = false;
         }
+        if (collision.gameObject.name == "Down")
+        {
+            playerMoving.isPlayerdown = false;
+        }
+        if (collision.gameObject.name == "Up")
+        {
+            playerMoving.isPlayerUp = false;
+        }
     }
+    //******修改
 
     private void endClimb()
     {

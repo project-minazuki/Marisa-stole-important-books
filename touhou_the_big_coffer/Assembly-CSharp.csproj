@@ -64,10 +64,11 @@
     <Compile Include="Assets\Scripts\Animations\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\Background\BackgroundMove00.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Camera\InvisibleWallMove.cs" />
+    <Compile Include="Assets\Scripts\Camera\dayAndNight.cs" />
     <Compile Include="Assets\Scripts\Enemy\Bolt.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Items\Bubble.cs" />
+    <Compile Include="Assets\Scripts\Items\DeathBonus.cs" />
     <Compile Include="Assets\Scripts\Items\panding.cs" />
     <Compile Include="Assets\Scripts\Items\Rotate1.cs" />
     <Compile Include="Assets\Scripts\Items\Rotate2.cs" />
