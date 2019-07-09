@@ -17,6 +17,7 @@ public class dayAndNight : MonoBehaviour
     public float moveSpeedx;
     public float moveSpeedy;
     public float max;
+    public int test; 
 
     PlayerControl playerControl;
 
@@ -25,14 +26,14 @@ public class dayAndNight : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        time = new Vector2(12, 0);
+        time = new Vector2(16, 0);
         colors = new Color[7];
         moon.transform.localPosition = new Vector3(max, moon.transform.localPosition.y, 0);
         moon2.transform.localPosition = new Vector3(max, moon2.transform.localPosition.y, 0);
-        sun.transform.localPosition = new Vector3(0, sun.transform.localPosition.y, 0);
-        warm.transform.localPosition = new Vector3(0, warm.transform.localPosition.y, 0);
-        cold1.transform.localPosition = new Vector3(0, cold1.transform.localPosition.y, 0);
-        cold2.transform.localPosition = new Vector3(0, cold2.transform.localPosition.y, 0);
+        sun.transform.localPosition = new Vector3(max * -4 / 7, sun.transform.localPosition.y, 0);
+        warm.transform.localPosition = new Vector3(max * -4 / 7, warm.transform.localPosition.y, 0);
+        cold1.transform.localPosition = new Vector3(max * -4 / 7, cold1.transform.localPosition.y, 0);
+        cold2.transform.localPosition = new Vector3(max * -4 / 7, cold2.transform.localPosition.y, 0);
         ColorUtility.TryParseHtmlString("#FF9010", out colors[0]);//16-18
         ColorUtility.TryParseHtmlString("#3333AE", out colors[1]);//18-20 cold2
         ColorUtility.TryParseHtmlString("#44567F", out colors[2]);//20-24
@@ -52,7 +53,7 @@ public class dayAndNight : MonoBehaviour
 
     private void refreshTime()
     {
-        second += (timeSpeed);
+        second += (60/test * timeSpeed);
         if (second >= 60)
         {
             second -= 60;
@@ -120,22 +121,22 @@ public class dayAndNight : MonoBehaviour
         }
         if (time.x >= 5 && time.x < 19)
         {
-            sun.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/60, (12 - time.x) * moveSpeedy * timeSpeed/60, 0);
-            warm.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/60, (12 - time.x) * moveSpeedy * timeSpeed/60, 0);
-            cold1.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/60, (12 - time.x) * moveSpeedy * timeSpeed/60, 0);
-            cold2.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/60, (12 - time.x) * moveSpeedy * timeSpeed/60, 0);
+            sun.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/test, (12 - time.x) * moveSpeedy * timeSpeed/test, 0);
+            warm.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/test, (12 - time.x) * moveSpeedy * timeSpeed/test, 0);
+            cold1.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/test, (12 - time.x) * moveSpeedy * timeSpeed/test, 0);
+            cold2.transform.localPosition += new Vector3(moveSpeedx * timeSpeed/test, (12 - time.x) * moveSpeedy * timeSpeed/test, 0);
         }
         if (time.x < 5 || time.x >= 19)
         {
             if (time.x < 5)
             {
-                moon.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed, -time.x * moveSpeedy * timeSpeed, 0);
-                moon2.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed, -time.x * moveSpeedy * timeSpeed, 0);
+                moon.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed / test, -time.x * moveSpeedy * timeSpeed / test, 0);
+                moon2.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed / test, -time.x * moveSpeedy * timeSpeed / test, 0);
             }
             else
             {
-                moon.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed, (24 - time.x) * moveSpeedy * timeSpeed, 0);
-                moon2.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed, (24 - time.x) * moveSpeedy * timeSpeed, 0);
+                moon.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed / test, (24 - time.x) * moveSpeedy * timeSpeed / test, 0);
+                moon2.transform.localPosition += new Vector3(moveSpeedx * 7 / 5 * timeSpeed / test, (24 - time.x) * moveSpeedy * timeSpeed / test, 0);
             }
         }
     }

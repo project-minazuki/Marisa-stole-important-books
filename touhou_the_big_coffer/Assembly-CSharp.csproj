@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B8643D2E-70E1-66D7-5000-7C92DDB8645E}</ProjectGuid>
+    <ProjectGuid>{DF4EEB72-0232-9E16-CD8E-95B39A9DE53B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -83,11 +83,18 @@
     <Compile Include="Assets\Scripts\Map\DeathTouch.cs" />
     <Compile Include="Assets\Scripts\Map\MagicCircle.cs" />
     <Compile Include="Assets\Scripts\Map\Shadow.cs" />
+    <Compile Include="Assets\Scripts\Music\MainMusicControl.cs" />
+    <Compile Include="Assets\Scripts\Music\MusicControl.cs" />
+    <Compile Include="Assets\Scripts\Music\MusicControl1.cs" />
+    <Compile Include="Assets\Scripts\Music\MusicControl2.cs" />
     <Compile Include="Assets\Scripts\Player\Afterimage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoving.cs" />
     <Compile Include="Assets\Scripts\UI\GameManage.cs" />
+    <Compile Include="Assets\Scripts\UI\Option.cs" />
     <Compile Include="Assets\Scripts\UI\PauseButton.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\UI\test.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -325,19 +332,19 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\unity-ui-extensions\Shaders\UI Particle MultiplyDouble.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Exercise/touhou_the_big_coffer - copy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Exercise/touhou_the_big_coffer - copy/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Exercise/touhou_the_big_coffer - copy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Exercise/touhou_the_big_coffer - copy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/Exercise/touhou_the_big_coffer - copy/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -538,13 +545,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.3f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Exercise/touhou_the_big_coffer - copy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Exercise/touhou_the_big_coffer - copy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Exercise/touhou_the_big_coffer - copy/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.3f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

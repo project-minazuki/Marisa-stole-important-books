@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class GameOver : MonoBehaviour
 {
     public CanvasGroup canvasGroup;
@@ -16,6 +17,7 @@ public class GameOver : MonoBehaviour
     StatefulInspection statefulInspection;
     public GameObject player;
     private float greentime;
+    public bool music;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class GameOver : MonoBehaviour
         gameManage = GetComponent<GameManage>();
         statefulInspection = GetComponent<StatefulInspection>();
         player = GameObject.FindGameObjectWithTag("Player");
+        music = true;
     }
 
     // Update is called once per frame
@@ -36,6 +39,7 @@ public class GameOver : MonoBehaviour
 
     public void Over()
     {
+        music = false;
         if (zen == false)
         {
             gameManage.GameOver();

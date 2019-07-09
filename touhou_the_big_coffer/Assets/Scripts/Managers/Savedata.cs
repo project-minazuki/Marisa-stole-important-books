@@ -140,6 +140,72 @@ public class Savedata
         //IV. Return.
         return sav;//Maybe have some lifetime problem.
     }
+
+    private Savedata LoadAndBuild()
+    {
+        bool failureFlag = false;
+
+        //Load local file if it exists.
+        string _path = Application.persistentDataPath + "/savedata.rua";
+        if (File.Exists(_path))
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream _file = File.Open(_path, FileMode.Open);// No handle for open failure.
+            if (_file == null)
+            {
+                Debug.Log("Open files failed. The file has been removed at runtime.");
+                // failureFlag = true;// Maybe can let control stream jump to create brunch.
+                InitialSavedataObject();
+            }
+            else
+            {
+                Savedata _tmpSav = (Savedata)bf.Deserialize(_file);// No handle for deserialize failure.
+                if (_tmpSav == null) _tmpSav.InitialSavedataObject();
+                _file.Close();
+                _highScore = _tmpSav._highScore;
+                _highMove = _tmpSav._highMove;
+                _allTimeMove = _tmpSav._allTimeMove;
+            }
+        }
+        //If not, create a new file
+        else
+        {
+            InitialSavedataObject();
+        }
+
+        return this;
+    }
+
+    public static int GetHighScore()
+    {
+        //I. Building Savedata object.
+        Savedata _tmpSav = new Savedata();
+        _tmpSav.LoadAndBuild();
+
+        //II. Return needed value.
+        return _tmpSav._highScore;
+    }
+
+    public static double GetHighMove()
+    {
+        //I. Building Savedata object.
+        Savedata _tmpSav = new Savedata();
+        _tmpSav.LoadAndBuild();
+
+        //II. Update some values of savedata object.
+        return _tmpSav._highMove;
+    }
+
+    public static double GetAllTimesMove()
+    {
+        //I. Building Savedata object.
+        Savedata _tmpSav = new Savedata();
+        _tmpSav.LoadAndBuild();
+
+        //II. Update some values of savedata object.
+        return _tmpSav._allTimeMove;
+    }
 }
 
 //e.g.   Savedata.SaveProcess().IsHighScore();
+//       Savedata.GetHighScore();
