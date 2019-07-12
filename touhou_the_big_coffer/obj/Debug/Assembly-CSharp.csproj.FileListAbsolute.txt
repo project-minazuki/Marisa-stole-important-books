@@ -123,8 +123,6 @@ D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\
 D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
 D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.Locator.dll
 D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
-D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.dll
-D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
 D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEditor.dll
 D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
 D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\UnityEngine.AIModule.dll

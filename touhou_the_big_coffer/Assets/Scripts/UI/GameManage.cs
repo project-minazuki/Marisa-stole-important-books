@@ -37,12 +37,14 @@ public class GameManage : MonoBehaviour
     }
     public void OnStartGame()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Scene");
         canvasGroupOver.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0) + new Vector3(0, screenHeight, 0);
         canvasGroup.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0) + new Vector3(0, screenHeight, 0);
     }
     public void OnStartGame2()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Scene2");
         canvasGroupOver.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0) + new Vector3(0, screenHeight, 0);
         canvasGroup.transform.position = new Vector3(screenWidth / 2, screenHeight / 2, 0) + new Vector3(0, screenHeight, 0);

@@ -13,6 +13,8 @@ public class test : MonoBehaviour, IBeginDragHandler, IEndDragHandler
     float targrthorizontal = 0.5f;
     bool isDrag = false;
     public GameObject background;
+    public GameObject background1;
+    public GameObject background2;
     public float test00;
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -63,6 +65,8 @@ public class test : MonoBehaviour, IBeginDragHandler, IEndDragHandler
     {
         
         background.transform.localPosition = new Vector3((rect.horizontalNormalizedPosition-0.5f)*-Screen.width, 0, 0);
+        background1.transform.localPosition = new Vector3((rect.horizontalNormalizedPosition - 0.5f) * -Screen.width, 0, 0);
+        background2.transform.localPosition = new Vector3((rect.horizontalNormalizedPosition - 0.5f) * -Screen.width, 0, 0);
         test00 = background.transform.localPosition.x;
     }
 }

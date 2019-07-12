@@ -18,6 +18,7 @@ public class PlayerControl : MonoBehaviour
     LineRenderer line;
     int dashableMask = 0;
     CameraFollow cameraFollow;
+    PlayerCombo playerCombo;
 
     private float gravity;
     private bool theWorldStart = false;
@@ -68,6 +69,7 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("Cannot find 'cameraFollow' script");
         }
 
+        playerCombo = GetComponent<PlayerCombo>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         gravity = rigidbody2D.gravityScale;
         playerMoving = GetComponent<PlayerMoving>();
@@ -110,6 +112,7 @@ public class PlayerControl : MonoBehaviour
                         {
                             if (playerMoving.isPlayerClimbing == false)
                             {
+                                if (!playerMoving.isPlayerDown) playerCombo.addCombo(5, "攀爬墙壁");
                                 playerMoving.isPlayerClimbing = true;
                                 playerMoving.isPlayerJumped = true;
                                 GetComponent<Rigidbody2D>().velocity = new Vector2(0, 8f * timeSpeed);
@@ -213,6 +216,7 @@ public class PlayerControl : MonoBehaviour
         {
             if (Input.GetButton("Fire1") && playerMoving.isPlayerClimbing == false && !playerMoving.isPlayerDashing)
             {
+                if (!playerMoving.isPlayerDown) playerCombo.addCombo(5, "攀爬墙壁");
                 playerMoving.isPlayerClimbing = true;
                 playerMoving.isPlayerJumped = true;
                 GetComponent<Rigidbody2D>().velocity = new Vector2(0, 8f * timeSpeed);
@@ -248,6 +252,7 @@ public class PlayerControl : MonoBehaviour
     {
         if (collision.gameObject.name == "RefleshJump")
         {
+            if (!playerMoving.isPlayerClimbing) playerCombo.finishCombo();
             playerMoving.isPlayerDashed = false;
             playerMoving.isPlayerJumped = false;
         }
@@ -257,7 +262,7 @@ public class PlayerControl : MonoBehaviour
         }
         if (collision.gameObject.name == "Down")
         {
-            playerMoving.isPlayerdown = true;
+            playerMoving.isPlayerDown = true;
         }
         if (collision.gameObject.name == "Up")
         {
@@ -274,7 +279,7 @@ public class PlayerControl : MonoBehaviour
         }
         if (collision.gameObject.name == "Down")
         {
-            playerMoving.isPlayerdown = false;
+            playerMoving.isPlayerDown = false;
         }
         if (collision.gameObject.name == "Up")
         {

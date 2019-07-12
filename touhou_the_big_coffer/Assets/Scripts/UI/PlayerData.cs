@@ -20,9 +20,9 @@ public class PlayerData : MonoBehaviour
         highmove = Savedata.GetHighMove();
         AllTimesMove = Savedata.GetAllTimesMove();
 
-        highscoreText.text = "最高分：" + highscore + "pt";
-        highmoveText.text = "最远距离：" + (int)highmove + "km";
-        AllTimesMoveText.text = "总距离：" + (int)AllTimesMove + "km";
+        highscoreText.text = highscore.ToString();
+        highmoveText.text = ((int)highmove).ToString();
+        AllTimesMoveText.text =((int)AllTimesMove).ToString();
     }
 
     // Update is called once per frame

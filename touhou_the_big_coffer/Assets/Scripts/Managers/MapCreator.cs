@@ -6,6 +6,7 @@ public class MapCreator : MonoBehaviour
 {
     public GameObject wall;
     public GameObject stab;
+    public GameObject saw;
     public GameObject MC;
     public GameObject bonus;
     public GameObject starplatinum;
@@ -15,6 +16,8 @@ public class MapCreator : MonoBehaviour
     public bool boss = false;
     public int shotNum = 4;
 
+    private bool isLastSaw = false;
+    private int lastY;
     private int newWallx = 20;    
     public GameObject enemy;
     public GameObject ground;
@@ -25,8 +28,11 @@ public class MapCreator : MonoBehaviour
         for (int i = -7; i <= 20; i += 1)
         {
             Instantiate(wall, new Vector3(i, -4, 0), gameObject.transform.rotation);
-            Instantiate(ground, new Vector3(i, -5, 0), gameObject.transform.rotation);
             Instantiate(ground, new Vector3(i, -4, 0), gameObject.transform.rotation);
+            Instantiate(ground, new Vector3(i, -5, 0), gameObject.transform.rotation);
+            Instantiate(ground, new Vector3(i, -6, 0), gameObject.transform.rotation);
+            Instantiate(ground, new Vector3(i, -7, 0), gameObject.transform.rotation);
+            Instantiate(ground, new Vector3(i, -8, 0), gameObject.transform.rotation);
         }
     }
 
@@ -44,15 +50,35 @@ public class MapCreator : MonoBehaviour
         {
             int[] usedY = new int[4];
             usedY[0] = Random.Range(-3, 4);
-             
+            if (isLastSaw == true)
+            {
+                do
+                {
+                    usedY[0] = Random.Range(-3, 4);
+                }
+                while (usedY[0] == lastY);
+            }
             Instantiate(wall, new Vector3(newWallx += 1, usedY[0], 0), gameObject.transform.rotation);
             Instantiate(wall, new Vector3(newWallx, -4, 0), gameObject.transform.rotation);
             if (!boss && Random.Range(0, 100) >= 90 - positionx/200 && usedY[0] != -3) Instantiate(stab, new Vector3(newWallx, -3.35f, 0), gameObject.transform.rotation);
-            if (Random.Range(1, 5) == 4) Instantiate(stab, new Vector3(newWallx, usedY[0] + 0.65f, 0), gameObject.transform.rotation);
+            if (Random.Range(1, 5) == 4)
+            {
+                if (Random.Range(0, 100) >= 10f || positionx >= 50) Instantiate(stab, new Vector3(newWallx, usedY[0] + 0.65f, 0), gameObject.transform.rotation);
+                else
+                {
+                    if (lastY != usedY[0] && usedY[0] != -3)
+                    {
+                        Instantiate(saw, new Vector3(newWallx, usedY[0] + 0.5f, 0), gameObject.transform.rotation);
+                        isLastSaw = true;
+                    }
+                }
+            }
+            Instantiate(ground, new Vector3(newWallx, -8, 0), gameObject.transform.rotation);
             Instantiate(ground, new Vector3(newWallx, -7, 0), gameObject.transform.rotation);
             Instantiate(ground, new Vector3(newWallx, -6, 0), gameObject.transform.rotation);
             Instantiate(ground, new Vector3(newWallx, -5, 0), gameObject.transform.rotation);
             Instantiate(ground, new Vector3(newWallx, -4, 0), gameObject.transform.rotation);
+            lastY = usedY[0];
             if (!boss)
             {
                 //生成Bonus******
@@ -69,7 +95,6 @@ public class MapCreator : MonoBehaviour
                 usedY[3] = Random.Range(-2, 5);
                 if ((Random.Range(0, 100) >= (90f - positionx / 600)) && positionx > 100) { if (usedY[3] != usedY[0] && usedY[3] != usedY[1] && usedY[3] != usedY[2]) { Instantiate(MC, new Vector3(newWallx, usedY[3], 0f), gameObject.transform.rotation); } }
                 //******生成MC
-
             }
         }
     }

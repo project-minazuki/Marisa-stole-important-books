@@ -17,7 +17,8 @@ public class dayAndNight : MonoBehaviour
     public float moveSpeedx;
     public float moveSpeedy;
     public float max;
-    public int test; 
+    public int test;
+    public GameObject particle;
 
     PlayerControl playerControl;
 
@@ -87,6 +88,7 @@ public class dayAndNight : MonoBehaviour
     {
         if (time == new Vector2(19, 0)) //此时太阳从左消失，月亮从右出现
         {
+            particle.GetComponent<ParticleSystem>().Play();
             sun.transform.localPosition = new Vector3(max, sun.transform.localPosition.y, 0);
             warm.transform.localPosition = new Vector3(max, warm.transform.localPosition.y, 0);
             cold1.transform.localPosition = new Vector3(max, cold1.transform.localPosition.y, 0);
@@ -96,8 +98,13 @@ public class dayAndNight : MonoBehaviour
             sun.GetComponent<Image>().enabled = false;
             cold2.GetComponent<Image>().enabled = false;
         }
-        if (time == new Vector2(5, 0)) //此时月亮从左消失，太阳从右出现
+        if (time == new Vector2(4, 0))
         {
+            particle.GetComponent<ParticleSystem>().Play();
+        }
+            if (time == new Vector2(5, 0)) //此时月亮从左消失，太阳从右出现
+        {
+            particle.GetComponent<ParticleSystem>().Stop();
             moon.transform.localPosition = new Vector3(max, moon.transform.localPosition.y, 0);
             moon2.transform.localPosition = new Vector3(max, moon2.transform.localPosition.y, 0);
             moon.GetComponent<Image>().enabled = false;

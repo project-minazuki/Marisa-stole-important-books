@@ -35,7 +35,7 @@ public class Score : MonoBehaviour
         {
             if (player != null)
             {
-                basicScore = (int)player.transform.position.x;
+                basicScore = (int)player.transform.position.x * 10;
             }
             else
             {

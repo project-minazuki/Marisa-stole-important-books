@@ -131,9 +131,10 @@ MonoBehaviour:
   shot1: {fileID: 2364050527048490796, guid: bfdd8943bf98520468c7f7dbadde9fdf, type: 3}
   shot2: {fileID: 2364050527048490796, guid: eeb5fb951f0847c43a53c32863f38058, type: 3}
   timeBetweenFire: 3600
-  shotNum: 8
+  shotNum: 3
   attackMode: 0
   timer: 0
+  halo: {fileID: 680190973416484076, guid: 5b60bdf140fde0e439142b6104ff360b, type: 3}
   DeathBonus: {fileID: 5150131399970783874, guid: 41166939cb8f30d4aab50b363fe411af,
     type: 3}
 --- !u!95 &6651350110896042058
@@ -191,7 +192,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6651350110910978676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.7, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6651350110896042049}

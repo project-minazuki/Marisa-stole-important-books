@@ -70,11 +70,11 @@ public class StatefulInspection : MonoBehaviour
 
     public void UpdateState()
     {
-        if (playerMoving.isPlayerBlocked == true && playerMoving.isPlayerdown == true && playerMoving.isPlayerUp == true)
+        if (playerMoving.isPlayerBlocked == true && playerMoving.isPlayerDown == true && playerMoving.isPlayerUp == true)
         {
             kasi = true;
             gameOver.Over();
-            playerMoving.isPlayerdown = false;
+            playerMoving.isPlayerDown = false;
             playerMoving.isPlayerUp = false;
         }
     }

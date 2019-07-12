@@ -33,7 +33,7 @@ public class panding : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            SCORE.addScore(5);
+            SCORE.addScore(100);
             Destroy(gameObject);
         }
        // if (collision.gameObject.name == "Invisible Wall")

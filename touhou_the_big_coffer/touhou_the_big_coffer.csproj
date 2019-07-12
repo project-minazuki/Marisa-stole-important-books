@@ -246,13 +246,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.3f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/kpmyon/Desktop/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/kpmyon/Desktop/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Exercise/VS repos/touhou_the_big_coffer/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/kpmyon/Desktop/touhou_the_big_coffer/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2018.4.3f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -627,10 +627,12 @@
     <Compile Include="Assets\Scripts\Animations\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\Background\BackgroundMove00.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Camera\InvisibleWallMove.cs" />
+    <Compile Include="Assets\Scripts\Camera\dayAndNight.cs" />
     <Compile Include="Assets\Scripts\Enemy\Bolt.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy\halo.cs" />
     <Compile Include="Assets\Scripts\Items\Bubble.cs" />
+    <Compile Include="Assets\Scripts\Items\DeathBonus.cs" />
     <Compile Include="Assets\Scripts\Items\panding.cs" />
     <Compile Include="Assets\Scripts\Items\Rotate1.cs" />
     <Compile Include="Assets\Scripts\Items\Rotate2.cs" />
@@ -639,16 +641,33 @@
     <Compile Include="Assets\Scripts\Managers\DestroyByTime.cs" />
     <Compile Include="Assets\Scripts\Managers\GameOver.cs" />
     <Compile Include="Assets\Scripts\Managers\MapCreator.cs" />
+    <Compile Include="Assets\Scripts\Managers\Savedata.cs" />
     <Compile Include="Assets\Scripts\Managers\Score.cs" />
     <Compile Include="Assets\Scripts\Managers\StatefulInspection.cs" />
     <Compile Include="Assets\Scripts\Map\DeathTouch.cs" />
     <Compile Include="Assets\Scripts\Map\MagicCircle.cs" />
     <Compile Include="Assets\Scripts\Map\Shadow.cs" />
+    <Compile Include="Assets\Scripts\Music\MainMusicControl.cs" />
+    <Compile Include="Assets\Scripts\Music\MusicControl.cs" />
+    <Compile Include="Assets\Scripts\Music\MusicControl1.cs" />
+    <Compile Include="Assets\Scripts\Music\MusicControl2.cs" />
     <Compile Include="Assets\Scripts\Player\Afterimage.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerCombo.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoving.cs" />
+    <Compile Include="Assets\Scripts\UI\BackgroundBlur.cs" />
+    <Compile Include="Assets\Scripts\UI\ChangeMusicButton.cs" />
+    <Compile Include="Assets\Scripts\UI\DeveloperInformation.cs" />
     <Compile Include="Assets\Scripts\UI\GameManage.cs" />
+    <Compile Include="Assets\Scripts\UI\LoadinBGManage.cs" />
+    <Compile Include="Assets\Scripts\UI\Option.cs" />
+    <Compile Include="Assets\Scripts\UI\OptionComponentManage.cs" />
     <Compile Include="Assets\Scripts\UI\PauseButton.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\UI\RandomTips.cs" />
+    <Compile Include="Assets\Scripts\UI\SakuraRotation.cs" />
+    <Compile Include="Assets\Scripts\UI\sceneManage.cs" />
+    <Compile Include="Assets\Scripts\UI\test.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

@@ -9,8 +9,7 @@ public class PlayerMoving : MonoBehaviour
     public bool isPlayerClimbing = false;
     public bool isPlayerDashed = false;
     public bool isPlayerDashing = false;
-    public bool isPlayerJumpedTwice = false;
-    public bool isPlayerdown = false;
+    public bool isPlayerDown = false;
     public bool isPlayerUp=false;
     PlayerControl playerControl;
 

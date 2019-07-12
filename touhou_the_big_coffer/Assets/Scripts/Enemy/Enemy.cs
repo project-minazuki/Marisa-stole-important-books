@@ -11,8 +11,11 @@ public class Enemy : MonoBehaviour
     public int shotNum;
     public int attackMode;
     public float timer;
+    public GameObject halo;
 
     MapCreator mapCreator;
+    Animator animator;
+    GameObject child;
 
     private float timeSpeed = 1;
     private GameObject player;
@@ -29,8 +32,9 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        attackMode = 1;//Random.Range(1, 3);
+        child = gameObject.transform.GetChild(0).gameObject;
+        animator = gameObject.transform.GetChild(0).gameObject.GetComponent<Animator>();
+        attackMode = Random.Range(1, 3);
         direction = -1;
         GameObject gameControllerObject = GameObject.FindGameObjectWithTag("GameController");
         if (gameControllerObject != null)
@@ -105,19 +109,22 @@ public class Enemy : MonoBehaviour
             if (transform.position.x - 12 < player.transform.position.x)
             {
                 if (transform.position.x > player.transform.position.x) transform.position = new Vector3(transform.position.x + timeSpeed * 4f * Time.deltaTime, transform.position.y + timeSpeed * direction * Time.deltaTime, 0);
-                else transform.position = new Vector3(player.transform.position.x, transform.position.y, 0);
+                else transform.position = new Vector3(transform.position.x + timeSpeed * 8f * Time.deltaTime,transform.position.y + timeSpeed * direction * Time.deltaTime, 0);
             }
-            if ((int)transform.position.y == (int)player.transform.position.y)
+            if ((int)transform.position.y == (int)player.transform.position.y && transform.position.x > player.transform.position.x)
             {
-                Invoke("MasterSpark", 1.5f);
-                timer = 180;
+                timer = 300;
             }
         }
-        
+        else
+        {
+            if (timer > 298) Instantiate(halo, transform.position - new Vector3(1.5f, 0, 0), Quaternion.Euler(0, 0, 0));
+            if (timer == 150) MasterSpark();
+        }
     }
     private void MasterSpark()
     {
-        Instantiate(masterSpark, transform.position - new Vector3(12, 0, 0), Quaternion.Euler(0, 0, 180));
+        Instantiate(masterSpark, transform.position - new Vector3(14, 0, 0), Quaternion.Euler(0, 0, 180));
     }
    
 }

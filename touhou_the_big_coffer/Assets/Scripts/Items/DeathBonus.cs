@@ -43,7 +43,7 @@ public class DeathBonus : MonoBehaviour
         if (Time.time-Createtime>=1f&& collision.gameObject.name == "Player")
         {
             Destroy(gameObject);
-            SCORE.addScore(20);
+            SCORE.addScore(100);
             Debug.Log("eat");
         }
     }
