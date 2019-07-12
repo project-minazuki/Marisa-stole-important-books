@@ -63,7 +63,7 @@ public class MapCreator : MonoBehaviour
             if (!boss && Random.Range(0, 100) >= 90 - positionx/200 && usedY[0] != -3) Instantiate(stab, new Vector3(newWallx, -3.35f, 0), gameObject.transform.rotation);
             if (Random.Range(1, 5) == 4)
             {
-                if (Random.Range(0, 100) >= 10f || positionx >= 50) Instantiate(stab, new Vector3(newWallx, usedY[0] + 0.65f, 0), gameObject.transform.rotation);
+                if (Random.Range(0, 100) >= 10f | positionx <= 50) Instantiate(stab, new Vector3(newWallx, usedY[0] + 0.65f, 0), gameObject.transform.rotation);
                 else
                 {
                     if (lastY != usedY[0] && usedY[0] != -3)

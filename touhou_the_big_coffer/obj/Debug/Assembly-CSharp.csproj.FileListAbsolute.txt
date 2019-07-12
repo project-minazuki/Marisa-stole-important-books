@@ -1007,3 +1007,5 @@ D:\Exercise\touhou_the_big_coffer - copy\obj\Debug\Assembly-CSharp.csproj.CoreCo
 D:\Exercise\touhou_the_big_coffer - copy\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 D:\Exercise\touhou_the_big_coffer - copy\obj\Debug\Assembly-CSharp.dll
 D:\Exercise\touhou_the_big_coffer - copy\obj\Debug\Assembly-CSharp.pdb
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\Exercise\VS repos\touhou_the_big_coffer\touhou_the_big_coffer\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
