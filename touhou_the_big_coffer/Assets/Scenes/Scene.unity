@@ -7989,7 +7989,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 2051798798}
+      objectReference: {fileID: 0}
     - target: {fileID: 8730362070750193602, guid: 18eac77353e083d43ae8f75521939d6a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -8009,6 +8009,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Retry
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566814709398620599, guid: 18eac77353e083d43ae8f75521939d6a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566814709398620599, guid: 18eac77353e083d43ae8f75521939d6a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3566814709398620599, guid: 18eac77353e083d43ae8f75521939d6a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 18eac77353e083d43ae8f75521939d6a, type: 3}
@@ -9200,7 +9215,7 @@ MonoBehaviour:
     type: 3}
   player: {fileID: 3275946563811555364, guid: c831e5e42e1024c4594ed560bbb39ace, type: 3}
   positionx: 0
-  newEnemyx: 100
+  newEnemyx: 200
   boss: 0
   shotNum: 4
   enemy: {fileID: 6651350110896042059, guid: 9b1033d438afd96428bb56d8928614b2, type: 3}
@@ -9354,26 +9369,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964679056}
   m_CullTransparentMesh: 0
---- !u!1 &2051798796 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8730362071261852762, guid: 18eac77353e083d43ae8f75521939d6a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1315422734}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2051798798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051798796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe7787a3f24ef15488b420bf0059920c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Mysprit: {fileID: 21300000, guid: ab4c5702fb7af034fa3e6055dbf74b49, type: 3}
-  ischange: 0
 --- !u!1 &2059536736
 GameObject:
   m_ObjectHideFlags: 0
@@ -9411,7 +9406,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2059536736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1389.4111, y: 2608.8247, z: 56.8237}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

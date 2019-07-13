@@ -10,6 +10,8 @@ public class Saw : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        speed = Random.Range(5, 21) * 0.1f;
+        deltaTime = 1f / speed;
         InvokeRepeating("Turn", deltaTime/2, deltaTime);
     }
 

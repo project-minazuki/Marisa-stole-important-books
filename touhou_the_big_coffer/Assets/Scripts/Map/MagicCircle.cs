@@ -6,13 +6,15 @@ public class MagicCircle : MonoBehaviour
 {
     StatefulInspection statefulInspection;
     GameOver gameOver;
+    PlayerCombo playerCombo;
+
     private GameObject MCBlue;
     private GameObject MCWhite;
     private GameObject MCBlue0;
     private GameObject MCWhite0;
     private GameObject MCBlue1;
     private GameObject MCWhite1;
-    //
+
     public bool isBlue;
     public float MCtime = 0;
     private GameObject player;
@@ -29,6 +31,7 @@ public class MagicCircle : MonoBehaviour
         MagicCircleStart();
 
         player = GameObject.FindGameObjectWithTag("Player");
+        playerCombo = player.GetComponent<PlayerCombo>();
     }
 
     void Update()
@@ -40,6 +43,7 @@ public class MagicCircle : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
+            playerCombo.addCombo(20, "破除魔法");
             Destroy(gameObject);
             if (isBlue == true && statefulInspection.isStarPlatinum == false)
             {

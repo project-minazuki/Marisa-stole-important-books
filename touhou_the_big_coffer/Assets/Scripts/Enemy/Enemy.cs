@@ -65,7 +65,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             score.addScore(50);
-            mapCreator.newEnemyx = (int)player.transform.position.x + 100;
+            mapCreator.newEnemyx = (int)player.transform.position.x + 200;
             mapCreator.boss = false;
             Destroy(gameObject);
             for (i = 1; i <= 20; i++)

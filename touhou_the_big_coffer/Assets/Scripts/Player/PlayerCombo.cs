@@ -90,10 +90,6 @@ public class PlayerCombo : MonoBehaviour
             {
                 addCombo(10, "穿过弹幕");
             }
-            if (collision.gameObject.name == "magicCircleArea")
-            {
-                addCombo(20, "破除魔法");
-            }
             if (collision.gameObject.name == "masterSparkComboArea")
             {
                 addCombo(50, "避开魔炮");
